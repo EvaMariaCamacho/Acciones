@@ -1,7 +1,0 @@
-Config.php -> el codigo en referencia a la configuración 
-
-Helpers -> funciones para funciones generales como ir a header, al footer, modales
-
-Libraries/Core/Conexion -> conexión con la base de datos
-
-Libraries/Core/Mysql.php -> funciones para la realización del crud
