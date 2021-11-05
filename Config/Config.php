@@ -1,9 +1,10 @@
 <?php 
 	
-	const BASE_URL = "https://localhost/acciones";
+	//define("BASE_URL", "http://localhost/tienda_virtual/");
+	const BASE_URL = "https://abelosh.com/tienda_virtual/";
 
 	//Zona horaria
-	date_default_timezone_set('Europe/Madrid');
+	date_default_timezone_set('America/Guatemala');
 
 	//Datos de conexión a Base de Datos
 	const DB_HOST = "localhost";
@@ -17,7 +18,7 @@
 	const SPM = ",";
 
 	//Simbolo de moneda
-	const SMONEY = "€";
+	const SMONEY = "Q";
 
 	
 
