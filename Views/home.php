@@ -76,7 +76,7 @@
                 </div> <!-- end of col -->
                 <div class="col-lg-6 col-xl-7">
                     <div class="image-container">
-                        <img class="img-fluid" src="<?= media(); ?>/images/header-illustration.svg" alt="alternative">
+                        <img class="img-fluid" src="<?= media(); ?>/images/header.png" alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -187,120 +187,12 @@
     </div> <!-- end of cards-1 -->
     <!-- end of services -->
 
-
-    <!-- Details 1 -->
-    <div id="details" class="basic-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-xl-7">
-                    <div class="image-container">
-                        <img class="img-fluid" src="<?= media(); ?>/images/details-1.svg" alt="alternative">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-6 col-xl-5">
-                    <div class="text-container">
-                        <h2><span>Perfect solution</span><br> for your small business</h2>
-                        <p>Maecenas fringilla quam posuere, pellentesque est nec, gravida turpis. Integer vitae mollis felis. Integer id quam id tellus hendrerit laciniad binfer</p>
-                        <p>Sed id dui rutrum, dictum urna eu, accumsan turpis. Fusce id auctor velit, sed viverra dui rem dina</p>
-                        <a class="btn-solid-reg" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Modal</a>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-1 -->
-    <!-- end of details 1 -->
-
-
-    <!-- Details Modal -->
-    <div id="staticBackdrop" class="modal fade" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="row">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    <div class="col-lg-8">
-                        <div class="image-container">
-                            <img class="img-fluid" src="<?= media(); ?>/images/details-modal.jpg" alt="alternative">
-                        </div> <!-- end of image-container -->
-                    </div> <!-- end of col -->
-                    <div class="col-lg-4">
-                        <h3>Goals Setting</h3>
-                        <hr>
-                        <p>In gravida at nunc sodales pretium. Vivamus semper, odio vitae mattis auctor, elit elit semper magna ac tum nico vela spider</p>
-                        <h4>User Feedback</h4>
-                        <p>Sapien vitae eros. Praesent ut erat a tellus posuere nisi more thico cursus pharetra finibus posuere nisi. Vivamus feugiat</p>
-                        <ul class="list-unstyled li-space-lg">
-                            <li class="d-flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div class="flex-grow-1">Tincidunt sem vel brita bet mala</div>
-                            </li>
-                            <li class="d-flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div class="flex-grow-1">Sapien condimentum sacoz sil necr</div>
-                            </li>
-                            <li class="d-flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div class="flex-grow-1">Fusce interdum nec ravon fro urna</div>
-                            </li>
-                            <li class="d-flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div class="flex-grow-1">Integer pulvinar biolot bat tortor</div>
-                            </li>
-                            <li class="d-flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div class="flex-grow-1">Id ultricies fringilla fangor raq trinit</div>
-                            </li>
-                        </ul>
-                        <a id="modalCtaBtn" class="btn-solid-reg" href="#">Details</a>
-                        <button type="button" class="btn-outline-reg" data-bs-dismiss="modal">Close</button>
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-            </div> <!-- end of modal-content -->
-        </div> <!-- end of modal-dialog -->
-    </div> <!-- end of modal -->
-    <!-- end of details modal -->
-
-
-    <!-- Details 2 -->
-    <div class="counter">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-xl-5">
-                    <div class="text-container">
-                        <h2><span>Awesome websites</span><br> built with tons of love</h2>
-                        <p>In gravida vitae nulla vitae tincidunt imperdiet ante. Pellentesque aliquet mi eu tortor dictum, non imperdiet ante viverra. Phasellus eget enim orci flig rine bilo</p>
-                        
-                        <!-- Counter -->
-                        <div class="counter-container">
-                            <div class="counter-cell">
-                                <div data-purecounter-start="0" data-purecounter-end="1250" data-purecounter-duration="2" class="purecounter">1</div>
-                                <div class="counter-info">Happy Customers</div>
-                            </div> <!-- end of counter-cell -->
-                            <div class="counter-cell red">
-                                <div data-purecounter-start="0" data-purecounter-end="1380" data-purecounter-duration="2" class="purecounter">1</div>
-                                <div class="counter-info">Issues Solved</div>
-                            </div> <!-- end of counter-cell -->
-                        </div> <!-- end of counter-container -->
-                        <!-- end of counter -->
-
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-6 col-xl-7">
-                    <div class="image-container">
-                        <img class="img-fluid" src="<?= media(); ?>/images/details-2.svg" alt="alternative">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of counter -->
-    <!-- end of details 2 -->
-
-
-    <!-- Projects -->
+       <!-- Projects -->
 	<div id="projects" class="filter bg-gray">
 		<div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="h2-heading">Projects that we're proud of</h2>
+                    <h2 class="h2-heading">Cual es tu sector a buscar</h2>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
             <div class="row">
@@ -309,9 +201,9 @@
                     <!-- Filter -->
                     <div class="button-group filters-button-group">
                         <button class="button is-checked" data-filter="*">ALL</button>
-                        <button class="button" data-filter=".design">DESIGN</button>
-                        <button class="button" data-filter=".development">DEVELOPMENT</button>
-                        <button class="button" data-filter=".marketing">MARKETING</button>
+                        <button class="button" data-filter=".design">Construccion</button>
+                        <button class="button" data-filter=".development">Servicios</button>
+                        <button class="button" data-filter=".marketing">Marketing</button>
                     </div> <!-- end of button group -->
                     <div class="grid">
                         <div class="element-item development">
@@ -377,196 +269,85 @@
     </div> <!-- end of filter -->
     <!-- end of projects -->
 
-
-    <!-- Testimonials -->
-    <div class="slider-1">
+    <!-- Details 1 -->
+    <div id="details" class="basic-1">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-
-                    <!-- Card Slider -->
-                    <div class="slider-container">
-                        <div class="swiper-container card-slider">
-                            <div class="swiper-wrapper">
-                                
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="quotes" src="<?= media(); ?>/images/quotes.svg" alt="alternative">
-                                        <div class="card-body">
-                                            <p class="testimonial-text">Fusce tincidunt dui nec diam varius venenatis. Nullam tristique rutrum odio, ut tincidunt erat dictum in. Etiam et aliquet mi, et vehicula elit fusce porta ullamcorper</p>
-                                            <div class="details">
-                                                <img class="testimonial-image" src="<?= media(); ?>/images/testimonial-1.jpg" alt="alternative">
-                                                <div class="text">
-                                                    <div class="testimonial-author">Samantha Bloom</div>
-                                                    <div class="occupation">Team Leader - Syncnow</div>
-                                                </div> <!-- end of text -->
-                                            </div> <!-- end of testimonial-details -->
-                                        </div>
-                                    </div> 
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="quotes" src="<?= media(); ?>/images/quotes.svg" alt="alternative">
-                                        <div class="card-body">
-                                            <p class="testimonial-text">Mauris ut mattis nisl. Nunc ultrices nisi eget nisl pulvinar iaculis vitae ac nulla. Nullam fringilla varius blandit. Nam sit amet eleifend justo blogo rovan de chichis kokos venir dab</p>
-                                            <div class="details">
-                                                <img class="testimonial-image" src="<?= media(); ?>/images/testimonial-2.jpg" alt="alternative">
-                                                <div class="text">
-                                                    <div class="testimonial-author">Mike Page</div>
-                                                    <div class="occupation">Developer - Chainlink</div>
-                                                </div> <!-- end of text -->
-                                            </div> <!-- end of testimonial-details -->
-                                        </div>
-                                    </div> 
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="quotes" src="images/quotes.svg" alt="alternative">
-                                        <div class="card-body">
-                                            <p class="testimonial-text">Nam sit amet eleifend justo. Aliquam sit amet lacinia enim, eget facilisis ex. Ut pretium cursus eleifend. Integer feugiat malesuada quam vel basil venis proca jilo</p>
-                                            <div class="details">
-                                                <img class="testimonial-image" src="<?= media(); ?>/images/testimonial-3.jpg" alt="alternative">
-                                                <div class="text">
-                                                    <div class="testimonial-author">Mary Longhorn</div>
-                                                    <div class="occupation">Manager - Firstdev</div>
-                                                </div> <!-- end of text -->
-                                            </div> <!-- end of testimonial-details -->
-                                        </div>
-                                    </div> 
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="quotes" src="<?= media(); ?>/images/quotes.svg" alt="alternative">
-                                        <div class="card-body">
-                                            <p class="testimonial-text">Lorem ipsum dolor sit amet, consectetur ing elit. Nulla id nisl tempus risus facilisis efficr ut tincidunt vitae enim non vehicula. Phases vitae metus in felis gravida ultrices zimbo</p>
-                                            <div class="details">
-                                                <img class="testimonial-image" src="<?= media(); ?>/images/testimonial-4.jpg" alt="alternative">
-                                                <div class="text">
-                                                    <div class="testimonial-author">Ronny Drummer</div>
-                                                    <div class="occupation">Designer - Sawdust</div>
-                                                </div> <!-- end of text -->
-                                            </div> <!-- end of testimonial-details -->
-                                        </div>
-                                    </div> 
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-
-                            </div> <!-- end of swiper-wrapper -->
-        
-                            <!-- Add Arrows -->
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                            <!-- end of add arrows -->
-        
-                        </div> <!-- end of swiper-container -->
-                    </div> <!-- end of slider-container -->
-                    <!-- end of card slider -->
-
+                <div class="col-lg-6 col-xl-7">
+                    <div class="image-container">
+                        <img class="img-fluid" src="<?= media(); ?>/images/details-1.svg" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6 col-xl-5">
+                    <div class="text-container">
+                        <h2><span>Perfecta solucion</span><br>para tu empresa</h2>
+                        <p>Maecenas fringilla quam posuere, pellentesque est nec, gravida turpis. Integer vitae mollis felis. Integer id quam id tellus hendrerit laciniad binfer</p>
+                        <p>Sed id dui rutrum, dictum urna eu, accumsan turpis. Fusce id auctor velit, sed viverra dui rem dina</p>
+                        <a class="btn-solid-reg" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Modal</a>
+                    </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
-    </div> <!-- end of slider-1 -->
-    <!-- end of testimonials -->
+    </div> <!-- end of basic-1 -->
+    <!-- end of details 1 -->
 
 
-    <!-- Pricing -->
-    <div id="pricing" class="cards-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="h2-heading"><span>Choose the package</span><br> that fits your budget and project</h2>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-12">
-                    
-                    <!-- Card -->
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="card-title">
-                                <img class="decoration-lines" src="<?= media(); ?>/images/decoration-lines.svg" alt="alternative"><span>Landing page</span><img class="decoration-lines flipped" src="images/decoration-lines.svg" alt="alternative">
-                            </div>
-                            <ul class="list-unstyled li-space-lg">
-                                <li>Fusce pulvinar eu mi acm</li>
-                                <li>Curabitur consequat nisl bro</li>
-                                <li>Reget facilisis molestie</li>
-                                <li>Vivamus vitae sem in tortor</li>
-                                <li>Pharetra vehicula ornares</li>
-                                <li>Vivamus dignissim sit amet</li>
-                                <li>Ut convallis aliquama set</li>
-                            </ul>
-                            <div class="price">$200</div>
-                            <a href="#contact" class="btn-outline-reg">Get quote</a>
-                        </div>
-                    </div>
-                    <!-- end of card -->
+    <!-- Details Modal -->
+    <div id="staticBackdrop" class="modal fade" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="row">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="col-lg-8">
+                        <div class="image-container">
+                            <img class="img-fluid" src="<?= media(); ?>/images/details-modal.jpg" alt="alternative">
+                        </div> <!-- end of image-container -->
+                    </div> <!-- end of col -->
+                    <div class="col-lg-4">
+                        <h3>Goals Setting</h3>
+                        <hr>
+                        <p>In gravida at nunc sodales pretium. Vivamus semper, odio vitae mattis auctor, elit elit semper magna ac tum nico vela spider</p>
+                        <h4>User Feedback</h4>
+                        <p>Sapien vitae eros. Praesent ut erat a tellus posuere nisi more thico cursus pharetra finibus posuere nisi. Vivamus feugiat</p>
+                        <ul class="list-unstyled li-space-lg">
+                            <li class="d-flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div class="flex-grow-1">Tincidunt sem vel brita bet mala</div>
+                            </li>
+                            <li class="d-flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div class="flex-grow-1">Sapien condimentum sacoz sil necr</div>
+                            </li>
+                            <li class="d-flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div class="flex-grow-1">Fusce interdum nec ravon fro urna</div>
+                            </li>
+                            <li class="d-flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div class="flex-grow-1">Integer pulvinar biolot bat tortor</div>
+                            </li>
+                            <li class="d-flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div class="flex-grow-1">Id ultricies fringilla fangor raq trinit</div>
+                            </li>
+                        </ul>
+                        <a id="modalCtaBtn" class="btn-solid-reg" href="#">Details</a>
+                        <button type="button" class="btn-outline-reg" data-bs-dismiss="modal">Close</button>
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of modal-content -->
+        </div> <!-- end of modal-dialog -->
+    </div> <!-- end of modal -->
+    <!-- end of details modal -->
 
-                    <!-- Card -->
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="card-title">
-                                <img class="decoration-lines" src="<?= media(); ?>/images/decoration-lines.svg" alt="alternative"><span>Corporate site</span><img class="decoration-lines flipped" src="images/decoration-lines.svg" alt="alternative">
-                            </div>
-                            <ul class="list-unstyled li-space-lg">
-                                <li>Nunc commodo magna quis</li>
-                                <li>Lacus fermentum tincidunt</li>
-                                <li>Nullam lobortis porta diam</li>
-                                <li>Announcing of invita mro</li>
-                                <li>Dictum metus placerat luctus</li>
-                                <li>Sed laoreet blandit mollis</li>
-                                <li>Mauris non luctus est</li>
-                            </ul>
-                            <div class="price">$300</div>
-                            <a href="#contact" class="btn-outline-reg">Get quote</a>
-                        </div>
-                    </div>
-                    <!-- end of card -->
-
-                    <!-- Card -->
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="card-title">
-                                <img class="decoration-lines" src="<?= media(); ?>/images/decoration-lines.svg" alt="alternative"><span>Online shop</span><img class="decoration-lines flipped" src="<?= media(); ?>/images/decoration-lines.svg" alt="alternative">
-                            </div>
-                            <ul class="list-unstyled li-space-lg">
-                                <li>Quisque rutrum mattis</li>
-                                <li>Quisque tristique cursus lacus</li>
-                                <li>Interdum sollicitudin maec</li>
-                                <li>Quam posuere, pellentesque</li>
-                                <li>Est nec, gravida turpis integer</li>
-                                <li>Mollis felis. Integer id quam</li>
-                                <li>Id tellus hendrerit lacinia</li>
-                            </ul>
-                            <div class="price">$400</div>
-                            <a href="#contact" class="btn-outline-reg">Get quote</a>
-                        </div>
-                    </div>
-                    <!-- end of card -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of cards-2 -->
-    <!-- end of pricing -->
-
-
+ 
     <!-- Invitation -->
     <div class="basic-2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="text-container">
-                        <h4>In gravida at nunc sodales pretium. Vivamus semper, odio vitae mattis auctor, elit elit semper magna rico</h4>
+                        <h4>Proyecto</h4>
                         <p class="p-large">Ac tristique velit sapien vitae eros. Praesent ut erat a tellus cursus pharetra finibus posuere nisi. Vivamus feugiat tincidunt sem pre toro</p>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
@@ -581,11 +362,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="h2-heading"><span>Use the following form to</span><br> request a quote for your project</h2>
-                    <p class="p-heading">Vel malesuada sapien condimentum nec. Fusce interdum nec urna et finibus pulvinar tortor id</p>
+                    <h2 class="h2-heading"><span>Contacto</h2>
+                    <!-- <p class="p-heading">Vel malesuada sapien condimentum nec. Fusce interdum nec urna et finibus pulvinar tortor id</p> -->
                     <ul class="list-unstyled li-space-lg">
-                        <li><i class="fas fa-map-marker-alt"></i> &nbsp;22 Praesentum, Pharetra Fin, CB 12345, KL</li>
-                        <li><i class="fas fa-phone"></i> &nbsp;<a href="tel:00817202212">+81 720 2212</a></li>
+                        <li><i class="fas fa-map-marker-alt"></i> &nbsp;Dirección</li>
+                        <li><i class="fas fa-phone"></i> &nbsp;<a href="">Telefono</a></li>
                         <li><i class="fas fa-envelope"></i> &nbsp;<a href="mailto:lorem@ipsum.com">lorem@ipsum.com</a></li>
                     </ul>
                 </div> <!-- end of col -->
@@ -631,7 +412,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h4>Pellentesque aliquet mi eu tortor dictum, non imperdiet ante viverra. Phasellus eget enim orci ut pellentes troc</h4>
+                    <h4>Nuestras redes sociales</h4>
                     <div class="social-container">
                         <span class="fa-stack">
                             <a href="#your-link">
@@ -684,9 +465,6 @@
                 </div> <!-- end of col -->
                 <div class="col-lg-3">
                     <p class="p-small statement">Copyright © <a href="#">Your name</a></p>
-                </div> <!-- end of col -->
-                <div class="col-lg-3">
-                    <p class="p-small statement">Distributed By: <a href="https://themewagon.com/" target="_blank">ThemeWagon</a></p>
                 </div> <!-- end of col -->
             </div> <!-- enf of row -->
         </div> <!-- end of container -->
