@@ -1,6 +1,6 @@
 <?php 
 	
-	const BASE_URL = "https://localhost/Acciones/";
+	const BASE_URL = "http://localhost/Acciones";
 
 	//Zona horaria
 	date_default_timezone_set('Europe/Madrid');
