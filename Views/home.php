@@ -22,13 +22,13 @@
     
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-    <link href="<?= media(); ?>/css/bootstrap.min.css" rel="stylesheet">
-    <link href="<?= media(); ?>/css/fontawesome-all.min.css" rel="stylesheet">
-    <link href="<?= media(); ?>/css/swiper.css" rel="stylesheet">
-	<link href="<?= media(); ?>/css/styles.css" rel="stylesheet">
+    <link href="Assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="Assets/css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="Assets/css/swiper.css" rel="stylesheet">
+	<link href="Assets/css/styles.css" rel="stylesheet">
 	
 	<!-- Favicon  -->
-    <link rel="icon" href="<?= media(); ?>/images/favicon.png">
+    <link rel="icon" href="Assets/images/favicon.png">
 </head>
 <body data-bs-spy="scroll" data-bs-target="#navbarExample">
     
@@ -69,7 +69,7 @@
             <div class="row">
                 <div class="col-lg-6 col-xl-7">
                   
-                        <img class="img-fluid" src="<?= media(); ?>/images/portada.png" alt="alternative">
+                        <img class="img-fluid" src="Assets/images/portada.png" alt="alternative">
                     </div> <!-- end of image-container -->
                
                 <div class="col-lg-6 col-xl-5">
@@ -89,32 +89,32 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-2">
-                <img class="img-fluid" src="<?= media(); ?>/images/iconomoneda.png" alt="alternative" width="80px" height="80px">
+                <img class="img-fluid" src="Assets/images/iconomoneda.png" alt="alternative" width="80px" height="80px">
                 <p class="pt-3">Moneda</p>
                  <!--end img-->
             </div> <!--end col-->
             <div class="col-lg-2">
-                <img class="img-fluid" src="<?= media(); ?>/images/iconotiempo.png" alt="alternative" width="80px" height="80px">
+                <img class="img-fluid" src="Assets/images/iconotiempo.png" alt="alternative" width="80px" height="80px">
                  <!--end img-->
                  <p class="pt-3">Tiempo</p>
             </div> <!--end col-->
             <div class="col-lg-2">
-                <img class="img-fluid" src="<?= media(); ?>/images/iconodiana.png" alt="alternative" width="80px" height="80px">
+                <img class="img-fluid" src="Assets/images/iconodiana.png" alt="alternative" width="80px" height="80px">
                  <!--end img-->
                  <p class="pt-3">Deportes</p>
             </div> <!--end col-->
             <div class="col-lg-2">
-                <img class="img-fluid" src="<?= media(); ?>/images/iconobombilla.png" alt="alternative" width="80px" height="80px">
+                <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="80px" height="80px">
                  <!--end img-->
                  <p class="pt-3">Inventos</p>
             </div> <!--end col-->
             <div class="col-lg-2">
-                <img class="img-fluid" src="<?= media(); ?>/images/iconobolsa.png" alt="alternative" width="80px" height="80px">
+                <img class="img-fluid" src="Assets/images/iconobolsa.png" alt="alternative" width="80px" height="80px">
                  <!--end img-->
                  <p class="pt-3">Banco</p>
             </div> <!--end col-->
             <div class="col-lg-2">
-                <img class="img-fluid" src="<?= media(); ?>/images/iconopremio.png" alt="alternative" width="80px" height="80px">
+                <img class="img-fluid" src="Assets/images/iconopremio.png" alt="alternative" width="80px" height="80px">
                  <!--end img-->
                  <p class="pt-3">Competiciones</p>
             </div> <!--end col-->
@@ -141,55 +141,55 @@
                     <div class="grid">
                         <div class="element-item development">
                             <a href="article.html">
-                                <img class="img-fluid" src="<?= media(); ?>/images/iconobombilla.png" alt="alternative" width="80px" height="80px">
+                                <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="80px" height="80px">
                                 <p><strong>Online banking</strong> - pellentesque tincidunt leo eu laoreedt integer quis vanos compren</p>
                             </a>
                         </div>
                         <div class="element-item development">
                             <a href="article.html">
-                                <img class="img-fluid" src="<?= media(); ?>/images/iconomoneda.png" alt="alternative" width="80px" height="80px">
+                                <img class="img-fluid" src="Assets/images/iconomoneda.png" alt="alternative" width="80px" height="80px">
                                 <p><strong>Loans company</strong> - odio semper, interdum orci molestie, mattis lectus pellentesq aliqu</p>
                             </a>
                         </div>
                         <div class="element-item development">
                             <a href="article.html">
-                                <img class="img-fluid" src="<?= media(); ?>/images/iconodiana.png" alt="alternative" width="80px" height="80px">
+                                <img class="img-fluid" src="Assets/images/iconodiana.png" alt="alternative" width="80px" height="80px">
                                 <p><strong>Refinance firm</strong> - arcu a neque congue finibus doneci malesuada et purus melan bris</p>
                             </a>
                         </div>
                         <div class="element-item design development">
                             <a href="article.html">
-                                <img class="img-fluid" src="<?= media(); ?>/images/iconobolsa.png" alt="alternative" width="80px" height="80px">
+                                <img class="img-fluid" src="Assets/images/iconobolsa.png" alt="alternative" width="80px" height="80px">
                                 <p><strong>Financial products</strong> - id aliquam ut malesuada eros utr varius blandit aliquam tinci bist</p>
                             </a>
                         </div>
                         <div class="element-item design development">
                             <a href="article.html">
-                                <img class="img-fluid" src="<?= media(); ?>/images/iconopremio.png" alt="alternative" width="80px" height="80px">
+                                <img class="img-fluid" src="Assets/images/iconopremio.png" alt="alternative" width="80px" height="80px">
                                 <p><strong>Credit cards</strong> - magna a feugiat cras a semper tellus in rhoncus vehicula tellus rugo</p>
                             </a>
                         </div>
                         <div class="element-item design marketing">
                             <a href="article.html">
-                                <img class="img-fluid" src="<?= media(); ?>/images/iconotiempo.png" alt="alternative" width="80px" height="80px">
+                                <img class="img-fluid" src="Assets/images/iconotiempo.png" alt="alternative" width="80px" height="80px">
                                 <p><strong>Software robots</strong> - vel sodales dolor donec a est sapien integer pharetr bilom conva</p>
                             </a>
                         </div>
                         <div class="element-item design marketing">
                             <a href="article.html">
-                                <img class="img-fluid" src="<?= media(); ?>/images/iconodiana.png" alt="alternative" width="80px" height="80px">
+                                <img class="img-fluid" src="Assets/images/iconodiana.png" alt="alternative" width="80px" height="80px">
                                 <p><strong>Company control</strong> - ut quam aliquam elemo de vestibulum fringilla porttitor vanic tres</p>
                             </a>
                         </div>
                         <div class="element-item design marketing">
                             <a href="article.html">
-                                <img class="img-fluid" src="<?= media(); ?>/images/iconobombilla.png" alt="alternative" width="80px" height="80px">
+                                <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="80px" height="80px">
                                 <p><strong>Audit reports</strong> - sed tempor, metus vel pharetra finibus, est ante hendrerit augue</p>
                             </a>
                         </div>
                         <div class="element-item design marketing">
                             <a href="article.html">
-                                <img class="img-fluid" src="<?= media(); ?>/images/iconobolsa.png" alt="alternative" width="80px" height="80px">
+                                <img class="img-fluid" src="Assets/images/iconobolsa.png" alt="alternative" width="80px" height="80px">
                                 <p><strong>Big business</strong> - aliquam semper molestie nisi, at porttitor lacus suscipit in mole richter</p>
                             </a>
                         </div>
@@ -253,7 +253,7 @@
 
     <!-- Footer -->
     <div class="footer bg-gray">
-        <img class="decoration-city" src="<?= media(); ?>/images/decoration-city.svg" alt="alternative">
+        <img class="decoration-city" src="Assets/images/decoration-city.svg" alt="alternative">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -319,15 +319,15 @@
 
     <!-- Back To Top Button -->
     <button onclick="topFunction()" id="myBtn">
-        <img src="<?= media(); ?>/images/up-arrow.png" alt="alternative">
+        <img src="Assets/images/up-arrow.png" alt="alternative">
     </button>
     <!-- end of back to top button -->
     	
     <!-- Scripts -->
-    <script src="<?= media(); ?>/js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-    <script src="<?= media(); ?>/js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-    <script src="<?= media(); ?>/js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
-    <script src="<?= media(); ?>/js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
-    <script src="<?= media(); ?>/js/scripts.js"></script> <!-- Custom scripts -->
+    <script src="Assets/js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="Assets/js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="Assets/js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
+    <script src="Assets/js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
+    <script src="Assets/js/scripts.js"></script> <!-- Custom scripts -->
 </body>
 </html>
