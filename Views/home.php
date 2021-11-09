@@ -63,22 +63,26 @@
       
     <!-- Header -->
     <header id="header" class="header">
+          <!-- Details 1 -->
+    <div id="details" class="basic-1">
         <div class="container">
             <div class="row">
+                <div class="col-lg-6 col-xl-7">
+                  
+                        <img class="img-fluid" src="<?= media(); ?>/images/portada.png" alt="alternative">
+                    </div> <!-- end of image-container -->
+               
                 <div class="col-lg-6 col-xl-5">
                     <div class="text-container">
-                        <!-- <div class="section-title">Bienvenidos a Proyecto</div> -->
-                        <h1 class="h1-large">Proyecto</h1>
-                        <p class="p-large">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dignissim, neque ut ultrices sollicitudin</p>
-                        <!-- <a class="btn-solid-lg" href="#services">Offered services</a>
-                        <a class="quote" href="#contact"><i class="fas fa-paper-plane"></i>Get quote</a> -->
+                        <h2><span>Perfecta solucion</span><br>para tu empresa</h2>
+                        <p>Maecenas fringilla quam posuere, pellentesque est nec, gravida turpis. Integer vitae mollis felis. Integer id quam id tellus hendrerit laciniad binfer</p>
+                        <p>Sed id dui rutrum, dictum urna eu, accumsan turpis. Fusce id auctor velit, sed viverra dui rem dina</p>
                     </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-6 col-xl-7">              
-                        <img class="img-fluid" src="<?= media(); ?>/images/header2.png" alt="alternative" width="480px" height="480px">
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+    <!-- end of details 1 -->
     </header> <!-- end of header -->
     <!-- end of header -->
 
@@ -86,349 +90,36 @@
         <div class="row">
             <div class="col-lg-2">
                 <img class="img-fluid" src="<?= media(); ?>/images/iconomoneda.png" alt="alternative" width="80px" height="80px">
+                <p class="pt-3">Moneda</p>
                  <!--end img-->
             </div> <!--end col-->
             <div class="col-lg-2">
                 <img class="img-fluid" src="<?= media(); ?>/images/iconotiempo.png" alt="alternative" width="80px" height="80px">
                  <!--end img-->
+                 <p class="pt-3">Tiempo</p>
             </div> <!--end col-->
             <div class="col-lg-2">
                 <img class="img-fluid" src="<?= media(); ?>/images/iconodiana.png" alt="alternative" width="80px" height="80px">
                  <!--end img-->
+                 <p class="pt-3">Deportes</p>
             </div> <!--end col-->
             <div class="col-lg-2">
                 <img class="img-fluid" src="<?= media(); ?>/images/iconobombilla.png" alt="alternative" width="80px" height="80px">
                  <!--end img-->
+                 <p class="pt-3">Inventos</p>
             </div> <!--end col-->
             <div class="col-lg-2">
                 <img class="img-fluid" src="<?= media(); ?>/images/iconobolsa.png" alt="alternative" width="80px" height="80px">
                  <!--end img-->
+                 <p class="pt-3">Banco</p>
             </div> <!--end col-->
             <div class="col-lg-2">
                 <img class="img-fluid" src="<?= media(); ?>/images/iconopremio.png" alt="alternative" width="80px" height="80px">
                  <!--end img-->
+                 <p class="pt-3">Competiciones</p>
             </div> <!--end col-->
-
-
         </div> <!--end row-->
-
-
-    </div> <!--end container>
-
-    <!-- Services -->
-    <div id="services" class="cards-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    
-                    <!-- Card -->
-                    <div class="card">
-                         <div class="card-icon">
-                            <img class="img-fluid" src="<?= media(); ?>/images/iconotiempo.png" alt="alternative" width="80px" height="80px">
-                     <!--end img-->
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Landing page</h5>
-                            <p>Lorem ipsum dolor sit amet, consect adipiscing elit nulla id nisl blah nor</p>
-                            <ul class="list-unstyled li-space-lg">
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Ut tincidunt vitae enim non vehi</div>
-                                </li>
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Phasellus vitae metus in felis</div>
-                                </li>
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Fusce pulvinar eu mi ac molestie</div>
-                                </li>
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Curabitur consequat nisl eget</div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- end of card -->
-
-                    <!-- Card -->
-                    <div class="card">
-                         <div class="card-icon">
-                            <img class="img-fluid" src="<?= media(); ?>/images/iconodiana.png" alt="alternative" width="80px" height="80px">
-                     <!--end img-->
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Corporate site</h5>
-                            <p>Nam eu erat tellused vivamus vitae sem in tortor pharetra vehicula orn</p>
-                            <ul class="list-unstyled li-space-lg">
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Vivaus dignissim sit amet nisi</div>
-                                </li>
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Aliqam a tristique nibh in pretium</div>
-                                </li>
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Nunc commodo magna quis blah</div>
-                                </li>
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Lacus fermentum tincidunt</div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- end of card -->
-
-                    <!-- Card -->
-                    <div class="card">
-                      <div class="card-icon">
-                            <img class="img-fluid" src="<?= media(); ?>/images/iconopremio.png" alt="alternative" width="80px" height="80px">
-                     <!--end img-->
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Online shop</h5>
-                            <p>Nullam lobortis porta diam, vitae dictum metus placerat luctus bora</p>
-                            <ul class="list-unstyled li-space-lg">
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Sed laoreet blandit mollis ne</div>
-                                </li>
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Mauris non luctus est quisquerm</div>
-                                </li>
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Mattis dapibus quisque tristique</div>
-                                </li>
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Cursus lacus interdum sollicdn</div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- end of card -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of cards-1 -->
-    <!-- end of services -->
-    <!-- Services -->
-    <div id="services" class="cards-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    
-                    <!-- Card -->
-                    <div class="card">
-                         <div class="card-icon">
-                            <img class="img-fluid" src="<?= media(); ?>/images/iconobolsa.png" alt="alternative" width="80px" height="80px">
-                     <!--end img-->
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Landing page</h5>
-                            <p>Lorem ipsum dolor sit amet, consect adipiscing elit nulla id nisl blah nor</p>
-                            <ul class="list-unstyled li-space-lg">
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Ut tincidunt vitae enim non vehi</div>
-                                </li>
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Phasellus vitae metus in felis</div>
-                                </li>
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Fusce pulvinar eu mi ac molestie</div>
-                                </li>
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Curabitur consequat nisl eget</div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- end of card -->
-
-                    <!-- Card -->
-                    <div class="card">
-                        <div class="card-icon">
-                            <img class="img-fluid" src="<?= media(); ?>/images/iconomoneda.png" alt="alternative" width="80px" height="80px">
-                     <!--end img-->
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Corporate site</h5>
-                            <p>Nam eu erat tellused vivamus vitae sem in tortor pharetra vehicula orn</p>
-                            <ul class="list-unstyled li-space-lg">
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Vivaus dignissim sit amet nisi</div>
-                                </li>
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Aliqam a tristique nibh in pretium</div>
-                                </li>
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Nunc commodo magna quis blah</div>
-                                </li>
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Lacus fermentum tincidunt</div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- end of card -->
-
-                    <!-- Card -->
-                    <div class="card">
-                       <div class="card-icon">
-                            <img class="img-fluid" src="<?= media(); ?>/images/iconobombilla.png" alt="alternative" width="80px" height="80px">
-                     <!--end img-->
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Online shop</h5>
-                            <p>Nullam lobortis porta diam, vitae dictum metus placerat luctus bora</p>
-                            <ul class="list-unstyled li-space-lg">
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Sed laoreet blandit mollis ne</div>
-                                </li>
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Mauris non luctus est quisquerm</div>
-                                </li>
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Mattis dapibus quisque tristique</div>
-                                </li>
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Cursus lacus interdum sollicdn</div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- end of card -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of cards-1 -->
-    <!-- end of services -->
-
-        <!-- Services -->
-    <div id="services" class="cards-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    
-                    <!-- Card -->
-                    <div class="card">
-                         <div class="card-icon">
-                            <img class="img-fluid" src="<?= media(); ?>/images/iconotiempo.png" alt="alternative" width="80px" height="80px">
-                     <!--end img-->
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Landing page</h5>
-                            <p>Lorem ipsum dolor sit amet, consect adipiscing elit nulla id nisl blah nor</p>
-                            <ul class="list-unstyled li-space-lg">
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Ut tincidunt vitae enim non vehi</div>
-                                </li>
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Phasellus vitae metus in felis</div>
-                                </li>
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Fusce pulvinar eu mi ac molestie</div>
-                                </li>
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Curabitur consequat nisl eget</div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- end of card -->
-
-                    <!-- Card -->
-                    <div class="card">
-                       <div class="card-icon">
-                            <img class="img-fluid" src="<?= media(); ?>/images/iconopremio.png" alt="alternative" width="80px" height="80px">
-                     <!--end img-->
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Corporate site</h5>
-                            <p>Nam eu erat tellused vivamus vitae sem in tortor pharetra vehicula orn</p>
-                            <ul class="list-unstyled li-space-lg">
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Vivaus dignissim sit amet nisi</div>
-                                </li>
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Aliqam a tristique nibh in pretium</div>
-                                </li>
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Nunc commodo magna quis blah</div>
-                                </li>
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Lacus fermentum tincidunt</div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- end of card -->
-
-                    <!-- Card -->
-                    <div class="card">
-                       <div class="card-icon">
-                            <img class="img-fluid" src="<?= media(); ?>/images/iconodiana.png" alt="alternative" width="80px" height="80px">
-                     <!--end img-->
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Online shop</h5>
-                            <p>Nullam lobortis porta diam, vitae dictum metus placerat luctus bora</p>
-                            <ul class="list-unstyled li-space-lg">
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Sed laoreet blandit mollis ne</div>
-                                </li>
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Mauris non luctus est quisquerm</div>
-                                </li>
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Mattis dapibus quisque tristique</div>
-                                </li>
-                                <li class="d-flex">
-                                    <i class="fas fa-check"></i>
-                                    <div class="flex-grow-1">Cursus lacus interdum sollicdn</div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- end of card -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of cards-1 -->
-    <!-- end of services -->
-    
+    </div> <!--end container-->
        <!-- Projects -->
 	<div id="projects" class="filter bg-gray">
 		<div class="container">
@@ -450,55 +141,55 @@
                     <div class="grid">
                         <div class="element-item development">
                             <a href="article.html">
-                                <img class="img-fluid" src="<?= media(); ?>/images/iconobombilla.png" alt="alternative" width="150px" height="150px">
+                                <img class="img-fluid" src="<?= media(); ?>/images/iconobombilla.png" alt="alternative" width="80px" height="80px">
                                 <p><strong>Online banking</strong> - pellentesque tincidunt leo eu laoreedt integer quis vanos compren</p>
                             </a>
                         </div>
                         <div class="element-item development">
                             <a href="article.html">
-                                <img class="img-fluid" src="<?= media(); ?>/images/iconomoneda.png" alt="alternative" width="150px" height="150px">
+                                <img class="img-fluid" src="<?= media(); ?>/images/iconomoneda.png" alt="alternative" width="80px" height="80px">
                                 <p><strong>Loans company</strong> - odio semper, interdum orci molestie, mattis lectus pellentesq aliqu</p>
                             </a>
                         </div>
                         <div class="element-item development">
                             <a href="article.html">
-                                <img class="img-fluid" src="<?= media(); ?>/images/iconodiana.png" alt="alternative" width="150px" height="150px">
+                                <img class="img-fluid" src="<?= media(); ?>/images/iconodiana.png" alt="alternative" width="80px" height="80px">
                                 <p><strong>Refinance firm</strong> - arcu a neque congue finibus doneci malesuada et purus melan bris</p>
                             </a>
                         </div>
                         <div class="element-item design development">
                             <a href="article.html">
-                                <img class="img-fluid" src="<?= media(); ?>/images/iconobolsa.png" alt="alternative" width="150px" height="150px">
+                                <img class="img-fluid" src="<?= media(); ?>/images/iconobolsa.png" alt="alternative" width="80px" height="80px">
                                 <p><strong>Financial products</strong> - id aliquam ut malesuada eros utr varius blandit aliquam tinci bist</p>
                             </a>
                         </div>
                         <div class="element-item design development">
                             <a href="article.html">
-                                <img class="img-fluid" src="<?= media(); ?>/images/iconopremio.png" alt="alternative" width="150px" height="150px">
+                                <img class="img-fluid" src="<?= media(); ?>/images/iconopremio.png" alt="alternative" width="80px" height="80px">
                                 <p><strong>Credit cards</strong> - magna a feugiat cras a semper tellus in rhoncus vehicula tellus rugo</p>
                             </a>
                         </div>
                         <div class="element-item design marketing">
                             <a href="article.html">
-                                <img class="img-fluid" src="<?= media(); ?>/images/iconotiempo.png" alt="alternative" width="150px" height="150px">
+                                <img class="img-fluid" src="<?= media(); ?>/images/iconotiempo.png" alt="alternative" width="80px" height="80px">
                                 <p><strong>Software robots</strong> - vel sodales dolor donec a est sapien integer pharetr bilom conva</p>
                             </a>
                         </div>
                         <div class="element-item design marketing">
                             <a href="article.html">
-                                <img class="img-fluid" src="<?= media(); ?>/images/iconodiana.png" alt="alternative" width="150px" height="150px">
+                                <img class="img-fluid" src="<?= media(); ?>/images/iconodiana.png" alt="alternative" width="80px" height="80px">
                                 <p><strong>Company control</strong> - ut quam aliquam elemo de vestibulum fringilla porttitor vanic tres</p>
                             </a>
                         </div>
                         <div class="element-item design marketing">
                             <a href="article.html">
-                                <img class="img-fluid" src="<?= media(); ?>/images/iconobombilla.png" alt="alternative" width="150px" height="150px">
+                                <img class="img-fluid" src="<?= media(); ?>/images/iconobombilla.png" alt="alternative" width="80px" height="80px">
                                 <p><strong>Audit reports</strong> - sed tempor, metus vel pharetra finibus, est ante hendrerit augue</p>
                             </a>
                         </div>
                         <div class="element-item design marketing">
                             <a href="article.html">
-                                <img class="img-fluid" src="<?= media(); ?>/images/iconobolsa.png" alt="alternative" width="150px" height="150px">
+                                <img class="img-fluid" src="<?= media(); ?>/images/iconobolsa.png" alt="alternative" width="80px" height="80px">
                                 <p><strong>Big business</strong> - aliquam semper molestie nisi, at porttitor lacus suscipit in mole richter</p>
                             </a>
                         </div>
@@ -510,77 +201,6 @@
 		</div> <!-- end of container -->
     </div> <!-- end of filter -->
     <!-- end of projects -->
-
-    <!-- Details 1 -->
-    <div id="details" class="basic-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-xl-7">
-                    <div class="image-container">
-                        <img class="img-fluid" src="<?= media(); ?>/images/grupal.png" alt="alternative">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-6 col-xl-5">
-                    <div class="text-container">
-                        <h2><span>Perfecta solucion</span><br>para tu empresa</h2>
-                        <p>Maecenas fringilla quam posuere, pellentesque est nec, gravida turpis. Integer vitae mollis felis. Integer id quam id tellus hendrerit laciniad binfer</p>
-                        <p>Sed id dui rutrum, dictum urna eu, accumsan turpis. Fusce id auctor velit, sed viverra dui rem dina</p>
-                        <a class="btn-solid-reg" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Modal</a>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-1 -->
-    <!-- end of details 1 -->
-
-
-    <!-- Details Modal -->
-    <div id="staticBackdrop" class="modal fade" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="row">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    <div class="col-lg-8">
-                        <div class="image-container">
-                            <img class="img-fluid" src="<?= media(); ?>/images/details-modal.jpg" alt="alternative">
-                        </div> <!-- end of image-container -->
-                    </div> <!-- end of col -->
-                    <div class="col-lg-4">
-                        <h3>Goals Setting</h3>
-                        <hr>
-                        <p>In gravida at nunc sodales pretium. Vivamus semper, odio vitae mattis auctor, elit elit semper magna ac tum nico vela spider</p>
-                        <h4>User Feedback</h4>
-                        <p>Sapien vitae eros. Praesent ut erat a tellus posuere nisi more thico cursus pharetra finibus posuere nisi. Vivamus feugiat</p>
-                        <ul class="list-unstyled li-space-lg">
-                            <li class="d-flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div class="flex-grow-1">Tincidunt sem vel brita bet mala</div>
-                            </li>
-                            <li class="d-flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div class="flex-grow-1">Sapien condimentum sacoz sil necr</div>
-                            </li>
-                            <li class="d-flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div class="flex-grow-1">Fusce interdum nec ravon fro urna</div>
-                            </li>
-                            <li class="d-flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div class="flex-grow-1">Integer pulvinar biolot bat tortor</div>
-                            </li>
-                            <li class="d-flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div class="flex-grow-1">Id ultricies fringilla fangor raq trinit</div>
-                            </li>
-                        </ul>
-                        <a id="modalCtaBtn" class="btn-solid-reg" href="#">Details</a>
-                        <button type="button" class="btn-outline-reg" data-bs-dismiss="modal">Close</button>
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-            </div> <!-- end of modal-content -->
-        </div> <!-- end of modal-dialog -->
-    </div> <!-- end of modal -->
-    <!-- end of details modal -->
 
     <!-- Contact -->
     <div id="contact" class="form-1">
