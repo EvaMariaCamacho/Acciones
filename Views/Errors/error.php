@@ -31,30 +31,37 @@
     <link rel="icon" href="<?= media(); ?>/images/favicon.png">
 </head>
 <body data-bs-spy="scroll" data-bs-target="#navbarExample">
-
-      
+   
     <!-- Header -->
     <header id="header" class="header">
+          <!-- Details 1 -->
+    <div id="details" class="basic-1">
         <div class="container">
             <div class="row">
+                <div class="col-lg-6 col-xl-7">
+                  
+                        <img class="img-fluid" src="<?= media(); ?>/images/buscar.png" alt="alternative">
+                    </div> <!-- end of image-container -->
+               
                 <div class="col-lg-6 col-xl-5">
                     <div class="text-container">
-                        <!-- <div class="section-title">Bienvenidos a Proyecto</div> -->
-                        <h1 class="h1-large">Pagina de error</h1>
-                        <p class="p-large">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dignissim, neque ut ultrices sollicitudin</p>
-                        <a class="btn-solid-lg" href="#inicio">Inicio</a>
-                        <!-- <a class="quote" href="#contact"><i class="fas fa-paper-plane"></i>Get quote</a> -->
+                        <h2><span>Error</span><br>Dirigite a inicio</h2>
+                        <p>Maecenas fringilla quam posuere, pellentesque est nec, gravida turpis. Integer vitae mollis felis. Integer id quam id tellus hendrerit laciniad binfer</p>
+                        <span class="nav-item">
+                            <a class="btn-solid-sm" href="#contact">Inicio</a>
+                        </span>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
-                <div class="col-lg-6 col-xl-7">
-                    <div class="image-container">
-                        <img class="img-fluid" src="<?= media(); ?>/images/header-illustration.svg" alt="alternative">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
+                
             </div> <!-- end of row -->
+              
         </div> <!-- end of container -->
+      
+    </div> <!-- end of basic-1 -->
+    <!-- end of details 1 -->
     </header> <!-- end of header -->
     <!-- end of header -->
+
 
     <!-- Footer -->
     <div class="footer bg-gray">
