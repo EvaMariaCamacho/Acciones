@@ -123,8 +123,9 @@
                     
                     <!-- Card -->
                     <div class="card">
-                        <div class="card-icon blue">
-                            <span class="far fa-file-alt"></span>
+                         <div class="card-icon">
+                            <img class="img-fluid" src="<?= media(); ?>/images/iconotiempo.png" alt="alternative" width="80px" height="80px">
+                     <!--end img-->
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Landing page</h5>
@@ -153,8 +154,9 @@
 
                     <!-- Card -->
                     <div class="card">
-                        <div class="card-icon yellow">
-                            <span class="fas fa-solar-panel"></span>
+                         <div class="card-icon">
+                            <img class="img-fluid" src="<?= media(); ?>/images/iconodiana.png" alt="alternative" width="80px" height="80px">
+                     <!--end img-->
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Corporate site</h5>
@@ -183,8 +185,9 @@
 
                     <!-- Card -->
                     <div class="card">
-                        <div class="card-icon red">
-                            <span class="fas fa-gift"></span>
+                      <div class="card-icon">
+                            <img class="img-fluid" src="<?= media(); ?>/images/iconopremio.png" alt="alternative" width="80px" height="80px">
+                     <!--end img-->
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Online shop</h5>
@@ -224,8 +227,9 @@
                     
                     <!-- Card -->
                     <div class="card">
-                        <div class="card-icon blue">
-                            <span class="far fa-file-alt"></span>
+                         <div class="card-icon">
+                            <img class="img-fluid" src="<?= media(); ?>/images/iconobolsa.png" alt="alternative" width="80px" height="80px">
+                     <!--end img-->
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Landing page</h5>
@@ -254,8 +258,9 @@
 
                     <!-- Card -->
                     <div class="card">
-                        <div class="card-icon yellow">
-                            <span class="fas fa-solar-panel"></span>
+                        <div class="card-icon">
+                            <img class="img-fluid" src="<?= media(); ?>/images/iconomoneda.png" alt="alternative" width="80px" height="80px">
+                     <!--end img-->
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Corporate site</h5>
@@ -284,8 +289,9 @@
 
                     <!-- Card -->
                     <div class="card">
-                        <div class="card-icon red">
-                            <span class="fas fa-gift"></span>
+                       <div class="card-icon">
+                            <img class="img-fluid" src="<?= media(); ?>/images/iconobombilla.png" alt="alternative" width="80px" height="80px">
+                     <!--end img-->
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Online shop</h5>
@@ -326,8 +332,9 @@
                     
                     <!-- Card -->
                     <div class="card">
-                        <div class="card-icon blue">
-                            <span class="far fa-file-alt"></span>
+                         <div class="card-icon">
+                            <img class="img-fluid" src="<?= media(); ?>/images/iconotiempo.png" alt="alternative" width="80px" height="80px">
+                     <!--end img-->
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Landing page</h5>
@@ -356,8 +363,9 @@
 
                     <!-- Card -->
                     <div class="card">
-                        <div class="card-icon yellow">
-                            <span class="fas fa-solar-panel"></span>
+                       <div class="card-icon">
+                            <img class="img-fluid" src="<?= media(); ?>/images/iconopremio.png" alt="alternative" width="80px" height="80px">
+                     <!--end img-->
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Corporate site</h5>
@@ -386,8 +394,9 @@
 
                     <!-- Card -->
                     <div class="card">
-                        <div class="card-icon red">
-                            <span class="fas fa-gift"></span>
+                       <div class="card-icon">
+                            <img class="img-fluid" src="<?= media(); ?>/images/iconodiana.png" alt="alternative" width="80px" height="80px">
+                     <!--end img-->
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Online shop</h5>
@@ -441,55 +450,55 @@
                     <div class="grid">
                         <div class="element-item development">
                             <a href="article.html">
-                                <img class="img-fluid" src="<?= media(); ?>/images/project-1.jpg" alt="alternative">
+                                <img class="img-fluid" src="<?= media(); ?>/images/iconobombilla.png" alt="alternative" width="150px" height="150px">
                                 <p><strong>Online banking</strong> - pellentesque tincidunt leo eu laoreedt integer quis vanos compren</p>
                             </a>
                         </div>
                         <div class="element-item development">
                             <a href="article.html">
-                                <img class="img-fluid" src="<?= media(); ?>/images/project-2.jpg" alt="alternative">
+                                <img class="img-fluid" src="<?= media(); ?>/images/iconomoneda.png" alt="alternative" width="150px" height="150px">
                                 <p><strong>Loans company</strong> - odio semper, interdum orci molestie, mattis lectus pellentesq aliqu</p>
                             </a>
                         </div>
                         <div class="element-item development">
                             <a href="article.html">
-                                <img class="img-fluid" src="<?= media(); ?>/images/project-3.jpg" alt="alternative">
+                                <img class="img-fluid" src="<?= media(); ?>/images/iconodiana.png" alt="alternative" width="150px" height="150px">
                                 <p><strong>Refinance firm</strong> - arcu a neque congue finibus doneci malesuada et purus melan bris</p>
                             </a>
                         </div>
                         <div class="element-item design development">
                             <a href="article.html">
-                                <img class="img-fluid" src="<?= media(); ?>/images/project-4.jpg" alt="alternative">
+                                <img class="img-fluid" src="<?= media(); ?>/images/iconobolsa.png" alt="alternative" width="150px" height="150px">
                                 <p><strong>Financial products</strong> - id aliquam ut malesuada eros utr varius blandit aliquam tinci bist</p>
                             </a>
                         </div>
                         <div class="element-item design development">
                             <a href="article.html">
-                                <img class="img-fluid" src="<?= media(); ?>/images/project-5.jpg" alt="alternative">
+                                <img class="img-fluid" src="<?= media(); ?>/images/iconopremio.png" alt="alternative" width="150px" height="150px">
                                 <p><strong>Credit cards</strong> - magna a feugiat cras a semper tellus in rhoncus vehicula tellus rugo</p>
                             </a>
                         </div>
                         <div class="element-item design marketing">
                             <a href="article.html">
-                                <img class="img-fluid" src="<?= media(); ?>/images/project-6.jpg" alt="alternative">
+                                <img class="img-fluid" src="<?= media(); ?>/images/iconotiempo.png" alt="alternative" width="150px" height="150px">
                                 <p><strong>Software robots</strong> - vel sodales dolor donec a est sapien integer pharetr bilom conva</p>
                             </a>
                         </div>
                         <div class="element-item design marketing">
                             <a href="article.html">
-                                <img class="img-fluid" src="<?= media(); ?>/images/project-7.jpg" alt="alternative">
+                                <img class="img-fluid" src="<?= media(); ?>/images/iconodiana.png" alt="alternative" width="150px" height="150px">
                                 <p><strong>Company control</strong> - ut quam aliquam elemo de vestibulum fringilla porttitor vanic tres</p>
                             </a>
                         </div>
                         <div class="element-item design marketing">
                             <a href="article.html">
-                                <img class="img-fluid" src="<?= media(); ?>/images/project-8.jpg" alt="alternative">
+                                <img class="img-fluid" src="<?= media(); ?>/images/iconobombilla.png" alt="alternative" width="150px" height="150px">
                                 <p><strong>Audit reports</strong> - sed tempor, metus vel pharetra finibus, est ante hendrerit augue</p>
                             </a>
                         </div>
                         <div class="element-item design marketing">
                             <a href="article.html">
-                                <img class="img-fluid" src="<?= media(); ?>/images/project-9.jpg" alt="alternative">
+                                <img class="img-fluid" src="<?= media(); ?>/images/iconobolsa.png" alt="alternative" width="150px" height="150px">
                                 <p><strong>Big business</strong> - aliquam semper molestie nisi, at porttitor lacus suscipit in mole richter</p>
                             </a>
                         </div>
@@ -508,7 +517,7 @@
             <div class="row">
                 <div class="col-lg-6 col-xl-7">
                     <div class="image-container">
-                        <img class="img-fluid" src="<?= media(); ?>/images/details-1.svg" alt="alternative">
+                        <img class="img-fluid" src="<?= media(); ?>/images/grupal.png" alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-6 col-xl-5">
@@ -572,23 +581,6 @@
         </div> <!-- end of modal-dialog -->
     </div> <!-- end of modal -->
     <!-- end of details modal -->
-
- 
-    <!-- Invitation -->
-    <div class="basic-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="text-container">
-                        <h4>Proyecto</h4>
-                        <p class="p-large">Ac tristique velit sapien vitae eros. Praesent ut erat a tellus cursus pharetra finibus posuere nisi. Vivamus feugiat tincidunt sem pre toro</p>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-2 -->
-    <!-- end of invitation -->
-
 
     <!-- Contact -->
     <div id="contact" class="form-1">
