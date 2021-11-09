@@ -74,16 +74,46 @@
                         <a class="quote" href="#contact"><i class="fas fa-paper-plane"></i>Get quote</a> -->
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
-                <div class="col-lg-6 col-xl-7">
-                    <div class="image-container">
-                        <img class="img-fluid" src="<?= media(); ?>/images/header.png" alt="alternative">
-                    </div> <!-- end of image-container -->
+                <div class="col-lg-6 col-xl-7">              
+                        <img class="img-fluid" src="<?= media(); ?>/images/header2.png" alt="alternative" width="480px" height="480px">
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
     </header> <!-- end of header -->
     <!-- end of header -->
 
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2">
+                <img class="img-fluid" src="<?= media(); ?>/images/iconomoneda.png" alt="alternative" width="80px" height="80px">
+                 <!--end img-->
+            </div> <!--end col-->
+            <div class="col-lg-2">
+                <img class="img-fluid" src="<?= media(); ?>/images/iconotiempo.png" alt="alternative" width="80px" height="80px">
+                 <!--end img-->
+            </div> <!--end col-->
+            <div class="col-lg-2">
+                <img class="img-fluid" src="<?= media(); ?>/images/iconodiana.png" alt="alternative" width="80px" height="80px">
+                 <!--end img-->
+            </div> <!--end col-->
+            <div class="col-lg-2">
+                <img class="img-fluid" src="<?= media(); ?>/images/iconobombilla.png" alt="alternative" width="80px" height="80px">
+                 <!--end img-->
+            </div> <!--end col-->
+            <div class="col-lg-2">
+                <img class="img-fluid" src="<?= media(); ?>/images/iconobolsa.png" alt="alternative" width="80px" height="80px">
+                 <!--end img-->
+            </div> <!--end col-->
+            <div class="col-lg-2">
+                <img class="img-fluid" src="<?= media(); ?>/images/iconopremio.png" alt="alternative" width="80px" height="80px">
+                 <!--end img-->
+            </div> <!--end col-->
+
+
+        </div> <!--end row-->
+
+
+    </div> <!--end container>
 
     <!-- Services -->
     <div id="services" class="cards-1">
