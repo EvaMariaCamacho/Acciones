@@ -155,66 +155,377 @@
                     
                     <!-- Filter -->
                     <div class="button-group filters-button-group">
+                        <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="40px" height="40px">
                         <button class="button is-checked" data-filter="*">ALL</button>
-                        <button class="button" data-filter=".design">Construccion</button>
-                        <button class="button" data-filter=".development">Servicios</button>
-                        <button class="button" data-filter=".marketing">Marketing</button>
+                        <button class="button" data-filter=".agricultura">
+                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="40px" height="40px">
+                            Agricultura
+                        </button>
+                        <button class="button" data-filter=".fabricas">
+                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="40px" height="40px">
+                            Fabricas
+                        </button>
+                        <button class="button" data-filter=".talleres">
+                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="40px" height="40px">
+                            Talleres
+                        </button>
+                        <button class="button" data-filter=".hosteleria">
+                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="40px" height="40px">
+                            Hosteleria
+                        </button>
+                        <button class="button" data-filter=".bancaseguros">
+                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="40px" height="40px">
+                            Banca / Seguros
+                        </button>
+                        <button class="button" data-filter=".inmobiliarias">
+                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="40px" height="40px">
+                            Inmobiliarias
+                        </button>
+                        <button class="button" data-filter=".educacion">
+                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="40px" height="40px">
+                            Educación
+                        </button>
+                        <button class="button" data-filter=".sanitarias">
+                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="40px" height="40px">
+                            Sanitaria
+                        </button>
+                        <!-- <button class="button" data-filter=".development">Servicios</button>
+                        <button class="button" data-filter=".marketing">Marketing</button> -->
                     </div> <!-- end of button group -->
                     <div class="grid">
-                        <div class="element-item development">
-                            <a href="article.html">
-                                <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
-                                <p><strong>Online banking</strong> - pellentesque tincidunt leo eu laoreedt integer quis vanos compren</p>
-                            </a>
+                    <!-- Card -->
+                    <div class="element-item sanitarias">  
+                    <div class="card">
+                        <div class="card-icon">
+                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
                         </div>
-                        <div class="element-item development">
-                            <a href="article.html">
-                                <img class="img-fluid" src="Assets/images/iconomoneda.png" alt="alternative" width="50px" height="50px">
-                                <p><strong>Loans company</strong> - odio semper, interdum orci molestie, mattis lectus pellentesq aliqu</p>
-                            </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Sanitaria</h5>
+                            <p>Nam eu erat tellused vivamus vitae sem in tortor pharetra vehicula orn</p>
+                            <ul class="list-unstyled li-space-lg">
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Vivaus dignissim sit amet nisi</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Aliqam a tristique nibh in pretium</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Nunc commodo magna quis blah</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Lacus fermentum tincidunt</div>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="element-item development">
-                            <a href="article.html">
-                                <img class="img-fluid" src="Assets/images/iconodiana.png" alt="alternative" width="50px" height="50px">
-                                <p><strong>Refinance firm</strong> - arcu a neque congue finibus doneci malesuada et purus melan bris</p>
-                            </a>
+                    </div>
+                   
+                    </div>
+                    <!-- end of card -->
+
+                       <!-- Card -->
+                    <div class="element-item talleres">  
+                    <div class="card">
+                        <div class="card-icon yellow">
+                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
                         </div>
-                        <div class="element-item design development">
-                            <a href="article.html">
-                                <img class="img-fluid" src="Assets/images/iconobolsa.png" alt="alternative" width="50px" height="50px">
-                                <p><strong>Financial products</strong> - id aliquam ut malesuada eros utr varius blandit aliquam tinci bist</p>
-                            </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Talleres</h5>
+                            <p>Nam eu erat tellused vivamus vitae sem in tortor pharetra vehicula orn</p>
+                            <ul class="list-unstyled li-space-lg">
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Vivaus dignissim sit amet nisi</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Aliqam a tristique nibh in pretium</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Nunc commodo magna quis blah</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Lacus fermentum tincidunt</div>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="element-item design development">
-                            <a href="article.html">
-                                <img class="img-fluid" src="Assets/images/iconopremio.png" alt="alternative" width="50px" height="50px">
-                                <p><strong>Credit cards</strong> - magna a feugiat cras a semper tellus in rhoncus vehicula tellus rugo</p>
-                            </a>
+                    </div>
+                   
+                    </div>
+                    <!-- end of card -->
+
+                       <!-- Card -->
+                    <div class="element-item agricultura">  
+                    <div class="card">
+                        <div class="card-icon yellow">
+                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
                         </div>
-                        <div class="element-item design marketing">
-                            <a href="article.html">
-                                <img class="img-fluid" src="Assets/images/iconotiempo.png" alt="alternative" width="50px" height="50px">
-                                <p><strong>Software robots</strong> - vel sodales dolor donec a est sapien integer pharetr bilom conva</p>
-                            </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Agricultura</h5>
+                            <p>Nam eu erat tellused vivamus vitae sem in tortor pharetra vehicula orn</p>
+                            <ul class="list-unstyled li-space-lg">
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Vivaus dignissim sit amet nisi</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Aliqam a tristique nibh in pretium</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Nunc commodo magna quis blah</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Lacus fermentum tincidunt</div>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="element-item design marketing">
-                            <a href="article.html">
-                                <img class="img-fluid" src="Assets/images/iconodiana.png" alt="alternative" width="50px" height="50px">
-                                <p><strong>Company control</strong> - ut quam aliquam elemo de vestibulum fringilla porttitor vanic tres</p>
-                            </a>
+                    </div>
+                   
+                    </div>
+                    <!-- end of card -->
+
+                       <!-- Card -->
+                    <div class="element-item fabricas">  
+                    <div class="card">
+                        <div class="card-icon yellow">
+                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
                         </div>
-                        <div class="element-item design marketing">
-                            <a href="article.html">
-                                <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
-                                <p><strong>Audit reports</strong> - sed tempor, metus vel pharetra finibus, est ante hendrerit augue</p>
-                            </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Fabricas</h5>
+                            <p>Nam eu erat tellused vivamus vitae sem in tortor pharetra vehicula orn</p>
+                            <ul class="list-unstyled li-space-lg">
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Vivaus dignissim sit amet nisi</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Aliqam a tristique nibh in pretium</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Nunc commodo magna quis blah</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Lacus fermentum tincidunt</div>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="element-item design marketing">
-                            <a href="article.html">
-                                <img class="img-fluid" src="Assets/images/iconobolsa.png" alt="alternative" width="50px" height="50px">
-                                <p><strong>Big business</strong> - aliquam semper molestie nisi, at porttitor lacus suscipit in mole richter</p>
-                            </a>
+                    </div>
+                   
+                    </div>
+                    <!-- end of card -->
+
+                       <!-- Card -->
+                    <div class="element-item transporte">  
+                    <div class="card">
+                        <div class="card-icon yellow">
+                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
                         </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Transporte</h5>
+                            <p>Nam eu erat tellused vivamus vitae sem in tortor pharetra vehicula orn</p>
+                            <ul class="list-unstyled li-space-lg">
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Vivaus dignissim sit amet nisi</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Aliqam a tristique nibh in pretium</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Nunc commodo magna quis blah</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Lacus fermentum tincidunt</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                   
+                    </div>
+                    <!-- end of card -->
+
+                       <!-- Card -->
+                    <div class="element-item hosteleria">  
+                    <div class="card">
+                        <div class="card-icon yellow">
+                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Hosteleria</h5>
+                            <p>Nam eu erat tellused vivamus vitae sem in tortor pharetra vehicula orn</p>
+                            <ul class="list-unstyled li-space-lg">
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Vivaus dignissim sit amet nisi</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Aliqam a tristique nibh in pretium</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Nunc commodo magna quis blah</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Lacus fermentum tincidunt</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                   
+                    </div>
+                    <!-- end of card -->
+
+                       <!-- Card -->
+                    <div class="element-item informatica">  
+                    <div class="card">
+                        <div class="card-icon yellow">
+                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">informatica</h5>
+                            <p>Nam eu erat tellused vivamus vitae sem in tortor pharetra vehicula orn</p>
+                            <ul class="list-unstyled li-space-lg">
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Vivaus dignissim sit amet nisi</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Aliqam a tristique nibh in pretium</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Nunc commodo magna quis blah</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Lacus fermentum tincidunt</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                   
+                    </div>
+                    <!-- end of card -->
+
+                       <!-- Card -->
+                    <div class="element-item bancaseguros">  
+                    <div class="card">
+                        <div class="card-icon yellow">
+                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Banca Seguros</h5>
+                            <p>Nam eu erat tellused vivamus vitae sem in tortor pharetra vehicula orn</p>
+                            <ul class="list-unstyled li-space-lg">
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Vivaus dignissim sit amet nisi</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Aliqam a tristique nibh in pretium</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Nunc commodo magna quis blah</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Lacus fermentum tincidunt</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                   
+                    </div>
+                    <!-- end of card -->
+
+                       <!-- Card -->
+                    <div class="element-item educacion">  
+                    <div class="card">
+                        <div class="card-icon yellow">
+                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Educación</h5>
+                            <p>Nam eu erat tellused vivamus vitae sem in tortor pharetra vehicula orn</p>
+                            <ul class="list-unstyled li-space-lg">
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Vivaus dignissim sit amet nisi</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Aliqam a tristique nibh in pretium</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Nunc commodo magna quis blah</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Lacus fermentum tincidunt</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                   
+                    </div>
+                    <!-- end of card -->
+
+                       <!-- Card -->
+                    <div class="element-item inmobiliarias">  
+                    <div class="card">
+                        <div class="card-icon yellow">
+                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Inmobiliarias</h5>
+                            <p>Nam eu erat tellused vivamus vitae sem in tortor pharetra vehicula orn</p>
+                            <ul class="list-unstyled li-space-lg">
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Vivaus dignissim sit amet nisi</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Aliqam a tristique nibh in pretium</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Nunc commodo magna quis blah</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Lacus fermentum tincidunt</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                   
+                    </div>
+                    <!-- end of card -->
+
+
+
+                    
                     </div> <!-- end of grid -->
                     <!-- end of filter -->
                     
