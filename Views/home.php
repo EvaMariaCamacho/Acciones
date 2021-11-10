@@ -87,39 +87,61 @@
     <!-- end of header -->
 
     <div class="container">
-        <div class="row">
-            <div class="col-lg-2">
-                <img class="img-fluid" src="Assets/images/iconomoneda.png" alt="alternative" width="80px" height="80px">
-                <p class="pt-3">Moneda</p>
+        <div class="row iconos-sector">
+            <div class="col-lg-1 m-2">
+                <img class="img-fluid" src="Assets/images/iconomoneda.png" alt="alternative" width="50px" height="50px">
+                <p class="pt-3">Agricultura</p>
                  <!--end img-->
             </div> <!--end col-->
-            <div class="col-lg-2">
-                <img class="img-fluid" src="Assets/images/iconotiempo.png" alt="alternative" width="80px" height="80px">
+            <div class="col-lg-1 m-2">
+                <img class="img-fluid" src="Assets/images/iconotiempo.png" alt="alternative" width="50px" height="50px">
                  <!--end img-->
-                 <p class="pt-3">Tiempo</p>
+                 <p class="pt-3">Fabricas</p>
             </div> <!--end col-->
-            <div class="col-lg-2">
-                <img class="img-fluid" src="Assets/images/iconodiana.png" alt="alternative" width="80px" height="80px">
+            <div class="col-lg-1 m-2">
+                <img class="img-fluid" src="Assets/images/iconodiana.png" alt="alternative" width="50px" height="50px">
                  <!--end img-->
-                 <p class="pt-3">Deportes</p>
+                 <p class="pt-3">Talleres</p>
             </div> <!--end col-->
-            <div class="col-lg-2">
-                <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="80px" height="80px">
+            <div class="col-lg-1 m-2">
+                <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
                  <!--end img-->
-                 <p class="pt-3">Inventos</p>
+                 <p class="pt-3">Hostereria</p>
             </div> <!--end col-->
-            <div class="col-lg-2">
-                <img class="img-fluid" src="Assets/images/iconobolsa.png" alt="alternative" width="80px" height="80px">
+            <div class="col-lg-1 m-2">
+                <img class="img-fluid" src="Assets/images/iconotiempo.png" alt="alternative" width="50px" height="50px">
                  <!--end img-->
-                 <p class="pt-3">Banco</p>
+                 <p class="pt-3">Informatica</p>
             </div> <!--end col-->
-            <div class="col-lg-2">
-                <img class="img-fluid" src="Assets/images/iconopremio.png" alt="alternative" width="80px" height="80px">
+            <div class="col-lg-1 m-2">
+                <img class="img-fluid" src="Assets/images/iconobolsa.png" alt="alternative" width="50px" height="50px">
                  <!--end img-->
-                 <p class="pt-3">Competiciones</p>
+                 <p class="pt-3">Banca / Seguros</p>
             </div> <!--end col-->
+            <div class="col-lg-1 m-2">
+                <img class="img-fluid" src="Assets/images/iconopremio.png" alt="alternative" width="50px" height="50px">
+                 <!--end img-->
+                 <p class="pt-3">Inmobiliarias</p>
+            </div> <!--end col-->
+            <div class="col-lg-1 m-2">
+                <img class="img-fluid" src="Assets/images/iconomoneda.png" alt="alternative" width="50px" height="50px">
+                 <!--end img-->
+                 <p class="pt-3">Educación</p>
+            </div> <!--end col-->
+            <div class="col-lg-1 m-2">
+                <img class="img-fluid" src="Assets/images/iconodiana.png" alt="alternative" width="50px" height="50px">
+                 <!--end img-->
+                 <p class="pt-3">Sanidad</p>
+            </div> <!--end col-->
+            <div class="col-lg-1 m-2">
+                <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
+                 <!--end img-->
+                 <p class="pt-3">Transportes</p>
+            </div> <!--end col-->
+            
         </div> <!--end row-->
     </div> <!--end container-->
+    
        <!-- Projects -->
 	<div id="projects" class="filter bg-gray">
 		<div class="container">
@@ -141,55 +163,55 @@
                     <div class="grid">
                         <div class="element-item development">
                             <a href="article.html">
-                                <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="80px" height="80px">
+                                <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
                                 <p><strong>Online banking</strong> - pellentesque tincidunt leo eu laoreedt integer quis vanos compren</p>
                             </a>
                         </div>
                         <div class="element-item development">
                             <a href="article.html">
-                                <img class="img-fluid" src="Assets/images/iconomoneda.png" alt="alternative" width="80px" height="80px">
+                                <img class="img-fluid" src="Assets/images/iconomoneda.png" alt="alternative" width="50px" height="50px">
                                 <p><strong>Loans company</strong> - odio semper, interdum orci molestie, mattis lectus pellentesq aliqu</p>
                             </a>
                         </div>
                         <div class="element-item development">
                             <a href="article.html">
-                                <img class="img-fluid" src="Assets/images/iconodiana.png" alt="alternative" width="80px" height="80px">
+                                <img class="img-fluid" src="Assets/images/iconodiana.png" alt="alternative" width="50px" height="50px">
                                 <p><strong>Refinance firm</strong> - arcu a neque congue finibus doneci malesuada et purus melan bris</p>
                             </a>
                         </div>
                         <div class="element-item design development">
                             <a href="article.html">
-                                <img class="img-fluid" src="Assets/images/iconobolsa.png" alt="alternative" width="80px" height="80px">
+                                <img class="img-fluid" src="Assets/images/iconobolsa.png" alt="alternative" width="50px" height="50px">
                                 <p><strong>Financial products</strong> - id aliquam ut malesuada eros utr varius blandit aliquam tinci bist</p>
                             </a>
                         </div>
                         <div class="element-item design development">
                             <a href="article.html">
-                                <img class="img-fluid" src="Assets/images/iconopremio.png" alt="alternative" width="80px" height="80px">
+                                <img class="img-fluid" src="Assets/images/iconopremio.png" alt="alternative" width="50px" height="50px">
                                 <p><strong>Credit cards</strong> - magna a feugiat cras a semper tellus in rhoncus vehicula tellus rugo</p>
                             </a>
                         </div>
                         <div class="element-item design marketing">
                             <a href="article.html">
-                                <img class="img-fluid" src="Assets/images/iconotiempo.png" alt="alternative" width="80px" height="80px">
+                                <img class="img-fluid" src="Assets/images/iconotiempo.png" alt="alternative" width="50px" height="50px">
                                 <p><strong>Software robots</strong> - vel sodales dolor donec a est sapien integer pharetr bilom conva</p>
                             </a>
                         </div>
                         <div class="element-item design marketing">
                             <a href="article.html">
-                                <img class="img-fluid" src="Assets/images/iconodiana.png" alt="alternative" width="80px" height="80px">
+                                <img class="img-fluid" src="Assets/images/iconodiana.png" alt="alternative" width="50px" height="50px">
                                 <p><strong>Company control</strong> - ut quam aliquam elemo de vestibulum fringilla porttitor vanic tres</p>
                             </a>
                         </div>
                         <div class="element-item design marketing">
                             <a href="article.html">
-                                <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="80px" height="80px">
+                                <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
                                 <p><strong>Audit reports</strong> - sed tempor, metus vel pharetra finibus, est ante hendrerit augue</p>
                             </a>
                         </div>
                         <div class="element-item design marketing">
                             <a href="article.html">
-                                <img class="img-fluid" src="Assets/images/iconobolsa.png" alt="alternative" width="80px" height="80px">
+                                <img class="img-fluid" src="Assets/images/iconobolsa.png" alt="alternative" width="50px" height="50px">
                                 <p><strong>Big business</strong> - aliquam semper molestie nisi, at porttitor lacus suscipit in mole richter</p>
                             </a>
                         </div>
