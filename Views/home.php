@@ -67,16 +67,22 @@
     <div id="details" class="basic-1">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-xl-7">
+                <div class="col-lg-4 col-xl-5">
                   
-                        <img class="img-fluid" src="Assets/images/portada.png" alt="alternative">
+                        <img class="img-fluid m-3" src="Assets/images/portada.png" alt="alternative">
                     </div> <!-- end of image-container -->
                
-                <div class="col-lg-6 col-xl-5">
+                <div class="col-lg-8 col-xl-7">
                     <div class="text-container">
-                        <h2><span>Perfecta solucion</span><br>para tu empresa</h2>
-                        <p>Maecenas fringilla quam posuere, pellentesque est nec, gravida turpis. Integer vitae mollis felis. Integer id quam id tellus hendrerit laciniad binfer</p>
-                        <p>Sed id dui rutrum, dictum urna eu, accumsan turpis. Fusce id auctor velit, sed viverra dui rem dina</p>
+                        
+                        <h3>Compra - Venta de Participaciones</h3>
+                        <h4>Empresas y Sociedades no cotizadas</h4>
+                        <br>
+                        <br>
+                        <p>Ponemos en contacto a potenciales compradores de participaciones en sociedades y empresas con vendedores o propietarios con necesidades de liquidez</p>
+                        <br>
+                        <br>
+                        <small>* La presente página no se hace responsable de los datos incorrectos o manipulados</small>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -85,62 +91,6 @@
     <!-- end of details 1 -->
     </header> <!-- end of header -->
     <!-- end of header -->
-
-    <div class="container">
-        <div class="row iconos-sector">
-            <div class="col-lg-1 m-2">
-                <img class="img-fluid" src="Assets/images/iconomoneda.png" alt="alternative" width="50px" height="50px">
-                <p class="pt-3">Agricultura</p>
-                 <!--end img-->
-            </div> <!--end col-->
-            <div class="col-lg-1 m-2">
-                <img class="img-fluid" src="Assets/images/iconotiempo.png" alt="alternative" width="50px" height="50px">
-                 <!--end img-->
-                 <p class="pt-3">Fabricas</p>
-            </div> <!--end col-->
-            <div class="col-lg-1 m-2">
-                <img class="img-fluid" src="Assets/images/iconodiana.png" alt="alternative" width="50px" height="50px">
-                 <!--end img-->
-                 <p class="pt-3">Talleres</p>
-            </div> <!--end col-->
-            <div class="col-lg-1 m-2">
-                <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
-                 <!--end img-->
-                 <p class="pt-3">Hostereria</p>
-            </div> <!--end col-->
-            <div class="col-lg-1 m-2">
-                <img class="img-fluid" src="Assets/images/iconotiempo.png" alt="alternative" width="50px" height="50px">
-                 <!--end img-->
-                 <p class="pt-3">Informatica</p>
-            </div> <!--end col-->
-            <div class="col-lg-1 m-2">
-                <img class="img-fluid" src="Assets/images/iconobolsa.png" alt="alternative" width="50px" height="50px">
-                 <!--end img-->
-                 <p class="pt-3">Banca / Seguros</p>
-            </div> <!--end col-->
-            <div class="col-lg-1 m-2">
-                <img class="img-fluid" src="Assets/images/iconopremio.png" alt="alternative" width="50px" height="50px">
-                 <!--end img-->
-                 <p class="pt-3">Inmobiliarias</p>
-            </div> <!--end col-->
-            <div class="col-lg-1 m-2">
-                <img class="img-fluid" src="Assets/images/iconomoneda.png" alt="alternative" width="50px" height="50px">
-                 <!--end img-->
-                 <p class="pt-3">Educación</p>
-            </div> <!--end col-->
-            <div class="col-lg-1 m-2">
-                <img class="img-fluid" src="Assets/images/iconodiana.png" alt="alternative" width="50px" height="50px">
-                 <!--end img-->
-                 <p class="pt-3">Sanidad</p>
-            </div> <!--end col-->
-            <div class="col-lg-1 m-2">
-                <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
-                 <!--end img-->
-                 <p class="pt-3">Transportes</p>
-            </div> <!--end col-->
-            
-        </div> <!--end row-->
-    </div> <!--end container-->
     
        <!-- Projects -->
 	<div id="projects" class="filter bg-gray">
@@ -155,39 +105,44 @@
                     
                     <!-- Filter -->
                     <div class="button-group filters-button-group">
-                        <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="40px" height="40px">
-                        <button class="button is-checked" data-filter="*">ALL</button>
+                        <button class="button is-checked" data-filter="*">
+                          <img class="img-fluid m-2" src="Assets/images/iconohome.png" alt="alternative" width="50px" height="50px"><br>  
+                                ALL</button>
                         <button class="button" data-filter=".agricultura">
-                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="40px" height="40px">
+                            <img class="img-fluid m-2" src="Assets/images/iconoglobe.png" alt="alternative" width="50px" height="50px"><br>
                             Agricultura
                         </button>
                         <button class="button" data-filter=".fabricas">
-                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="40px" height="40px">
+                            <img class="img-fluid m-2" src="Assets/images/iconodiana.png" alt="alternative" width="50px" height="50px"><br>
                             Fabricas
                         </button>
                         <button class="button" data-filter=".talleres">
-                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="40px" height="40px">
+                            <img class="img-fluid m-2" src="Assets/images/iconoherramienta.png" alt="alternative" width="50px" height="50px"><br>
                             Talleres
                         </button>
                         <button class="button" data-filter=".hosteleria">
-                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="40px" height="40px">
+                            <img class="img-fluid m-2" src="Assets/images/iconotiempo.png" alt="alternative" width="50px" height="50px"><br>
                             Hosteleria
                         </button>
                         <button class="button" data-filter=".bancaseguros">
-                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="40px" height="40px">
+                            <img class="img-fluid m-2" src="Assets/images/iconomoneda.png" alt="alternative" width="50px" height="50px"><br>
                             Banca / Seguros
                         </button>
                         <button class="button" data-filter=".inmobiliarias">
-                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="40px" height="40px">
+                            <img class="img-fluid m-2" src="Assets/images/iconoinmobiliaria.png" alt="alternative" width="50px" height="50px"><br>
                             Inmobiliarias
                         </button>
                         <button class="button" data-filter=".educacion">
-                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="40px" height="40px">
+                            <img class="img-fluid m-2" src="Assets/images/iconolapiz.png" alt="alternative" width="50px" height="50px"><br>
                             Educación
                         </button>
                         <button class="button" data-filter=".sanitarias">
-                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="40px" height="40px">
+                            <img class="img-fluid m-2" src="Assets/images/iconosanidad.png" alt="alternative" width="50px" height="50px"><br>
                             Sanitaria
+                        </button>
+                         <button class="button" data-filter=".informatica">
+                            <img class="img-fluid m-2" src="Assets/images/iconomonitor.png" alt="alternative" width="50px" height="50px"><br>
+                            Informatica
                         </button>
                         <!-- <button class="button" data-filter=".development">Servicios</button>
                         <button class="button" data-filter=".marketing">Marketing</button> -->
@@ -197,7 +152,7 @@
                     <div class="element-item sanitarias">  
                     <div class="card">
                         <div class="card-icon">
-                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
+                            <img class="img-fluid m-3" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Sanitaria</h5>
@@ -230,7 +185,7 @@
                     <div class="element-item talleres">  
                     <div class="card">
                         <div class="card-icon yellow">
-                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
+                            <img class="img-fluid m-3" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Talleres</h5>
@@ -263,7 +218,7 @@
                     <div class="element-item agricultura">  
                     <div class="card">
                         <div class="card-icon yellow">
-                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
+                            <img class="img-fluid m-3" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Agricultura</h5>
@@ -296,7 +251,7 @@
                     <div class="element-item fabricas">  
                     <div class="card">
                         <div class="card-icon yellow">
-                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
+                            <img class="img-fluid m-3" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Fabricas</h5>
@@ -329,7 +284,7 @@
                     <div class="element-item transporte">  
                     <div class="card">
                         <div class="card-icon yellow">
-                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
+                            <img class="img-fluid m-3" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Transporte</h5>
@@ -362,7 +317,7 @@
                     <div class="element-item hosteleria">  
                     <div class="card">
                         <div class="card-icon yellow">
-                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
+                            <img class="img-fluid m-3" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Hosteleria</h5>
@@ -395,7 +350,7 @@
                     <div class="element-item informatica">  
                     <div class="card">
                         <div class="card-icon yellow">
-                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
+                            <img class="img-fluid m-3" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">informatica</h5>
@@ -428,7 +383,7 @@
                     <div class="element-item bancaseguros">  
                     <div class="card">
                         <div class="card-icon yellow">
-                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
+                            <img class="img-fluid m-3" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Banca Seguros</h5>
@@ -461,7 +416,7 @@
                     <div class="element-item educacion">  
                     <div class="card">
                         <div class="card-icon yellow">
-                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
+                            <img class="img-fluid m-3" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Educación</h5>
@@ -494,7 +449,7 @@
                     <div class="element-item inmobiliarias">  
                     <div class="card">
                         <div class="card-icon yellow">
-                            <img class="img-fluid" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
+                            <img class="img-fluid m-3" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Inmobiliarias</h5>
@@ -522,7 +477,39 @@
                    
                     </div>
                     <!-- end of card -->
-
+                    
+                           <!-- Card -->
+                    <div class="element-item informatica">  
+                    <div class="card">
+                        <div class="card-icon">
+                            <img class="img-fluid m-3" src="Assets/images/iconomonitor.png" alt="alternative" width="50px" height="50px">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Informatica</h5>
+                            <p>Nam eu erat tellused vivamus vitae sem in tortor pharetra vehicula orn</p>
+                            <ul class="list-unstyled li-space-lg">
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Vivaus dignissim sit amet nisi</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Aliqam a tristique nibh in pretium</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Nunc commodo magna quis blah</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check"></i>
+                                    <div class="flex-grow-1">Lacus fermentum tincidunt</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                   
+                    </div>
+                    <!-- end of card -->
 
 
                     

@@ -70,7 +70,7 @@ h3 {
 }
 
 h4 {
-	color: #0423342;
+	color: #eb6d24;
 	font-weight: 700;
 	font-size: 1.5rem;
 	line-height: 2rem;
@@ -564,7 +564,6 @@ select {
 .cards-1 .list-unstyled .flex-grow-1 {
 	margin-left: 0.5rem;
 }
-
 
 /********************/
 /*     Projects     */
@@ -1103,13 +1102,6 @@ select {
 		margin-left: 1rem;
 	}
 	/* end of pricing */
-
-
-	/* Invitation */
-	.basic-2 .text-container {
-		padding: 8rem;
-	}
-	/* end of invitation */
 
 
 	/* Footer */
