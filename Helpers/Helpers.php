@@ -5,9 +5,30 @@
 	{
 		return BASE_URL;
 	}
-     function media()
+    //Retorla la url de Assets
+    function media()
     {
         return BASE_URL."/Assets";
+    }
+    function headerAdmin($data="")
+    {
+        $view_header = "Views/Template/header_admin.php";
+        require_once ($view_header);
+    }
+    function footerAdmin($data="")
+    {
+        $view_footer = "Views/Template/footer_admin.php";
+        require_once ($view_footer);        
+    }
+     function headerHome($data="")
+    {
+        $view_header = "Views/Template/header_home.php";
+        require_once ($view_header);
+    }
+    function footerHome($data="")
+    {
+        $view_footer = "Views/Template/footer_home.php";
+        require_once ($view_footer);        
     }
 	//Muestra información formateada
 	function dep($data)
@@ -16,6 +37,11 @@
         $format .= print_r($data);
         $format .= print_r('</pre>');
         return $format;
+    }
+    function getModal(string $nameModal, $data)
+    {
+        $view_modal = "Views/Template/Modals/{$nameModal}.php";
+        require_once $view_modal;        
     }
     //Elimina exceso de espacios entre palabras
     function strClean($strCadena){
