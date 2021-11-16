@@ -22,13 +22,13 @@
     
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-    <link href="Assets/Acciones/css/bootstrap.min.css" rel="stylesheet">
-    <link href="Assets/Acciones/css/fontawesome-all.min.css" rel="stylesheet">
-    <link href="Assets/Acciones/css/swiper.css" rel="stylesheet">
-	<link href="Assets/Acciones/css/styles.css" rel="stylesheet">
+    <link href="Assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="Assets/css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="Assets/css/swiper.css" rel="stylesheet">
+	<link href="Assets/css/styles.css" rel="stylesheet">
 	
 	<!-- Favicon  -->
-    <link rel="icon" href="Assets/Acciones/images/favicon.png">
+    <link rel="icon" href="Assets/images/favicon.png">
 </head>
 <body data-bs-spy="scroll" data-bs-target="#navbarExample">
     
@@ -84,7 +84,7 @@
             <div class="row">
                 <div class="col-lg-4 col-xl-5">
                   
-                        <img class="img-fluid m-3" src="Assets/Acciones/images/portada.png" alt="alternative">
+                        <img class="img-fluid m-3" src="Assets/images/portada.png" alt="alternative">
                     </div> <!-- end of image-container -->
                
                 <div class="col-lg-8 col-xl-7">
@@ -121,42 +121,42 @@
                     <!-- Filter -->
                     <div class="button-group filters-button-group">
                         <button class="button is-checked" data-filter="*">
-                          <img class="img-fluid m-2" src="Assets/Acciones/images/iconohome.png" alt="alternative" width="50px" height="50px"><br>  
+                          <img class="img-fluid m-2" src="Assets/images/iconohome.png" alt="alternative" width="50px" height="50px"><br>  
                                 ALL</button>
                         <button class="button" data-filter=".agricultura">
-                            <img class="img-fluid m-2" src="Assets/Acciones/images/iconoglobe.png" alt="alternative" width="50px" height="50px"><br>
+                            <img class="img-fluid m-2" src="Assets/images/iconoglobe.png" alt="alternative" width="50px" height="50px"><br>
                             Agricultura
                         </button>
                         <button class="button" data-filter=".fabricas">
-                            <img class="img-fluid m-2" src="Assets/Acciones/images/iconodiana.png" alt="alternative" width="50px" height="50px"><br>
+                            <img class="img-fluid m-2" src="Assets/images/iconodiana.png" alt="alternative" width="50px" height="50px"><br>
                             Fabricas
                         </button>
                         <button class="button" data-filter=".talleres">
-                            <img class="img-fluid m-2" src="Assets/Acciones/images/iconoherramienta.png" alt="alternative" width="50px" height="50px"><br>
+                            <img class="img-fluid m-2" src="Assets/images/iconoherramienta.png" alt="alternative" width="50px" height="50px"><br>
                             Talleres
                         </button>
                         <button class="button" data-filter=".hosteleria">
-                            <img class="img-fluid m-2" src="Assets/Acciones/images/iconotiempo.png" alt="alternative" width="50px" height="50px"><br>
+                            <img class="img-fluid m-2" src="Assets/images/iconotiempo.png" alt="alternative" width="50px" height="50px"><br>
                             Hosteleria
                         </button>
                         <button class="button" data-filter=".bancaseguros">
-                            <img class="img-fluid m-2" src="Assets/Acciones/images/iconomoneda.png" alt="alternative" width="50px" height="50px"><br>
+                            <img class="img-fluid m-2" src="Assets/images/iconomoneda.png" alt="alternative" width="50px" height="50px"><br>
                             Banca / Seguros
                         </button>
                         <button class="button" data-filter=".inmobiliarias">
-                            <img class="img-fluid m-2" src="Assets/Acciones/images/iconoinmobiliaria.png" alt="alternative" width="50px" height="50px"><br>
+                            <img class="img-fluid m-2" src="Assets/images/iconoinmobiliaria.png" alt="alternative" width="50px" height="50px"><br>
                             Inmobiliarias
                         </button>
                         <button class="button" data-filter=".educacion">
-                            <img class="img-fluid m-2" src="Assets/Acciones/images/iconolapiz.png" alt="alternative" width="50px" height="50px"><br>
+                            <img class="img-fluid m-2" src="Assets/images/iconolapiz.png" alt="alternative" width="50px" height="50px"><br>
                             Educación
                         </button>
                         <button class="button" data-filter=".sanitarias">
-                            <img class="img-fluid m-2" src="Assets/Acciones/images/iconosanidad.png" alt="alternative" width="50px" height="50px"><br>
+                            <img class="img-fluid m-2" src="Assets/images/iconosanidad.png" alt="alternative" width="50px" height="50px"><br>
                             Sanitaria
                         </button>
                          <button class="button" data-filter=".informatica">
-                            <img class="img-fluid m-2" src="Assets/Acciones/images/iconomonitor.png" alt="alternative" width="50px" height="50px"><br>
+                            <img class="img-fluid m-2" src="Assets/images/iconomonitor.png" alt="alternative" width="50px" height="50px"><br>
                             Informatica
                         </button>
                         <!-- <button class="button" data-filter=".development">Servicios</button>
@@ -167,7 +167,7 @@
                     <div class="element-item sanitarias">  
                     <div class="card">
                         <div class="card-icon">
-                            <img class="img-fluid m-3" src="Assets/Acciones/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
+                            <img class="img-fluid m-3" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Sanitaria</h5>
@@ -200,7 +200,7 @@
                     <div class="element-item talleres">  
                     <div class="card">
                         <div class="card-icon yellow">
-                            <img class="img-fluid m-3" src="Assets/Acciones/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
+                            <img class="img-fluid m-3" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Talleres</h5>
@@ -233,7 +233,7 @@
                     <div class="element-item agricultura">  
                     <div class="card">
                         <div class="card-icon yellow">
-                            <img class="img-fluid m-3" src="Assets/Acciones/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
+                            <img class="img-fluid m-3" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Agricultura</h5>
@@ -266,7 +266,7 @@
                     <div class="element-item fabricas">  
                     <div class="card">
                         <div class="card-icon yellow">
-                            <img class="img-fluid m-3" src="Assets/Acciones/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
+                            <img class="img-fluid m-3" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Fabricas</h5>
@@ -299,7 +299,7 @@
                     <div class="element-item transporte">  
                     <div class="card">
                         <div class="card-icon yellow">
-                            <img class="img-fluid m-3" src="Assets/Acciones/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
+                            <img class="img-fluid m-3" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Transporte</h5>
@@ -332,7 +332,7 @@
                     <div class="element-item hosteleria">  
                     <div class="card">
                         <div class="card-icon yellow">
-                            <img class="img-fluid m-3" src="Assets/Acciones/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
+                            <img class="img-fluid m-3" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Hosteleria</h5>
@@ -365,7 +365,7 @@
                     <div class="element-item informatica">  
                     <div class="card">
                         <div class="card-icon yellow">
-                            <img class="img-fluid m-3" src="Assets/Acciones/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
+                            <img class="img-fluid m-3" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">informatica</h5>
@@ -398,7 +398,7 @@
                     <div class="element-item bancaseguros">  
                     <div class="card">
                         <div class="card-icon yellow">
-                            <img class="img-fluid m-3" src="Assets/Acciones/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
+                            <img class="img-fluid m-3" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Banca Seguros</h5>
@@ -431,7 +431,7 @@
                     <div class="element-item educacion">  
                     <div class="card">
                         <div class="card-icon yellow">
-                            <img class="img-fluid m-3" src="Assets/Acciones/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
+                            <img class="img-fluid m-3" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Educación</h5>
@@ -464,7 +464,7 @@
                     <div class="element-item inmobiliarias">  
                     <div class="card">
                         <div class="card-icon yellow">
-                            <img class="img-fluid m-3" src="Assets/Acciones/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
+                            <img class="img-fluid m-3" src="Assets/images/iconobombilla.png" alt="alternative" width="50px" height="50px">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Inmobiliarias</h5>
@@ -497,7 +497,7 @@
                     <div class="element-item informatica">  
                     <div class="card">
                         <div class="card-icon">
-                            <img class="img-fluid m-3" src="Assets/Acciones/images/iconomonitor.png" alt="alternative" width="50px" height="50px">
+                            <img class="img-fluid m-3" src="Assets/images/iconomonitor.png" alt="alternative" width="50px" height="50px">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Informatica</h5>
@@ -542,7 +542,7 @@
 
     <!-- Footer -->
     <div class="footer bg-gray m-5">
-        <img class="decoration-city" src="Assets/Acciones/images/decoration-city.svg" alt="alternative">
+        <img class="decoration-city" src="Assets/images/decoration-city.svg" alt="alternative">
        
     </div> <!-- end of footer -->  
     <!-- end of footer -->
@@ -570,15 +570,15 @@
 
     <!-- Back To Top Button -->
     <button onclick="topFunction()" id="myBtn">
-        <img src="Assets/Acciones/images/up-arrow.png" alt="alternative">
+        <img src="Assets/images/up-arrow.png" alt="alternative">
     </button>
     <!-- end of back to top button -->
     	
     <!-- Scripts -->
-    <script src="Assets/Acciones/js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-    <script src="Assets/Acciones/js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-    <script src="Assets/Acciones/js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
-    <script src="Assets/Acciones/js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
-    <script src="Assets/Acciones/js/scripts.js"></script> <!-- Custom scripts -->
+    <script src="Assets/js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="Assets/js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="Assets/js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
+    <script src="Assets/js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
+    <script src="Assets/js/scripts.js"></script> <!-- Custom scripts -->
 </body>
 </html>
