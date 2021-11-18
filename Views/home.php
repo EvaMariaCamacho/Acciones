@@ -1,3 +1,9 @@
+<?php 
+    getModal('modalUsuarios',$data);
+?>
+    
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,6 +40,48 @@
 	<!-- Favicon  -->
     <link rel="icon" href="Assets/images/favicon.png">
 </head>
+<style>
+.filterDiv {
+  float: left;
+  /* background-color: #2196F3;
+  color: #ffffff; */
+  width: 100%;
+  line-height: 100px;
+  text-align: center;
+  margin: 2px;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: ;
+}
+
+.btn.active {
+  background-color: #19617c;
+  color: white;
+}
+table{
+  table-layout: fixed;
+}
+</style>
 <body data-bs-spy="scroll" data-bs-target="#navbarExample">
     
     <!-- Navigation -->
@@ -121,6 +169,251 @@
             </div> <!-- end of row -->
             <div class="row">
                 <div class="col-lg-12">
+<div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')">
+        <img class="img-fluid text-filters" src="Assets/images/iconohome.png" alt="alternative" width="50px" height="50px"><br>  
+        All
+    </button>
+    <button class="btn" onclick="filterSelection('agricultura')">
+        <img class="img-fluid text-filters" src="Assets/images/iconoglobe.png" alt="alternative" width="50px" height="50px"><br>
+        Agricultura
+    </button>
+    <button class="btn" onclick="filterSelection('fabricas')">
+        <img class="img-fluid text-filters" src="Assets/images/iconodiana.png" alt="alternative" width="50px" height="50px"><br>
+        Fabricas 
+    </button>
+    <button class="btn" onclick="filterSelection('talleres')">
+        <img class="img-fluid text-filters" src="Assets/images/iconoherramienta.png" alt="alternative" width="50px" height="50px"><br>
+        Talleres
+    </button>
+    <button class="btn" onclick="filterSelection('hosteleria')">
+        <img class="img-fluid text-filters" src="Assets/images/iconotiempo.png" alt="alternative" width="50px" height="50px"><br>
+        Hosteleria
+    </button>
+     <button class="btn" onclick="filterSelection('banca_seguros')">
+        <img class="img-fluid text-filters" src="Assets/images/iconomoneda.png" alt="alternative" width="50px" height="50px"><br>
+        Banca / Seguros
+    </button>
+    <button class="btn" onclick="filterSelection('inmobiliarias')">
+        <img class="img-fluid text-filters" src="Assets/images/iconoinmobiliaria.png" alt="alternative" width="50px" height="50px"><br>
+        Inmobiliarias
+    </button>
+    <button class="btn" onclick="filterSelection('educacion')">
+        <img class="img-fluid text-filters" src="Assets/images/iconolapiz.png" alt="alternative" width="50px" height="50px"><br>
+        Educación
+    </button>
+     <button class="btn" onclick="filterSelection('sanitaria')">
+        <img class="img-fluid text-filters" src="Assets/images/iconosanidad.png" alt="alternative" width="50px" height="50px"><br>
+        Sanitaria
+    </button>
+    <button class="btn" onclick="filterSelection('informatica')">
+        <img class="img-fluid text-filters" src="Assets/images/iconomonitor.png" alt="alternative" width="50px" height="50px"><br>
+        Informatica
+    </button>
+    
+</div>
+
+<div class="container">
+<div>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Acronimo</th>
+            <th>Acronimo</th>
+            <th>Participaciones</th>
+            <th>Total</th>
+            <th>Importe</th>
+            <th>Accion</th>
+        </tr>
+        </thead>
+
+    </table>
+</div>
+
+<div class="filterDiv informatica">
+    <table class="table table-striped">
+    
+        <tbody>
+        <tr>
+            <td>A066</td>
+            <td>Doe</td>
+            <td>150</td>
+            <td>50</td>
+            <td>1.000 €</td>
+            <td><span class="nav-item">
+                    <a class="btn-solid-sm" href="#contact">información</a>
+                </span>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div class="filterDiv educacion">
+    <table class="table table-striped">
+        <tbody>
+        <tr>
+            <td>A066</td>
+            <td>Doe</td>
+            <td>150</td>
+            <td>50</td>
+            <td>1.000 €</td>
+            <td><span class="nav-item">
+                    <a class="btn-solid-sm" href="#contact">información</a>
+                </span>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+  </div>
+  <div class="filterDiv sanitaria">
+    <table class="table table-striped">
+        <tbody>
+        <tr>
+            <td>A066</td>
+            <td>Doe</td>
+            <td>150</td>
+            <td>50</td>
+            <td>1.000 €</td>
+            <td><span class="nav-item">
+                    <a class="btn-solid-sm" href="#contact">información</a>
+                </span>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+  </div>
+  <div class="filterDiv inmobiliarias">
+    <table class="table table-striped">
+        <tbody>
+        <tr>
+            <td>A066</td>
+            <td>Doe</td>
+            <td>150</td>
+            <td>50</td>
+            <td>1.000 €</td>
+            <td><span class="nav-item">
+                    <a class="btn-solid-sm" href="#contact">información</a>
+                </span>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+  </div>
+  <div class="filterDiv banca_seguros">
+    <table class="table table-striped">
+        <tbody>
+        <tr>
+            <td>A066</td>
+            <td>Doe</td>
+            <td>150</td>
+            <td>50</td>
+            <td>1.000 €</td>
+            <td><span class="nav-item">
+                    <a class="btn-solid-sm" href="#contact">información</a>
+                </span>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+  </div>
+    <div class="filterDiv hosteleria">
+    <table class="table table-striped">
+        <tbody>
+        <tr>
+            <td>A066</td>
+            <td>Doe</td>
+            <td>150</td>
+            <td>50</td>
+            <td>1.000 €</td>
+            <td><span class="nav-item">
+                    <a class="btn-solid-sm" href="#contact">información</a>
+                </span>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+  </div>
+    <div class="filterDiv hosteleria">
+    <table class="table table-striped">
+        <tbody>
+        <tr>
+            <td>A066</td>
+            <td>Doe</td>
+            <td>150</td>
+            <td>50</td>
+            <td>1.000 €</td>
+            <td><span class="nav-item">
+                    <a class="btn-solid-sm" href="#contact">información</a>
+                </span>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+  </div>
+    <div class="filterDiv talleres">
+    <table class="table table-striped">
+        <tbody>
+        <tr>
+            <td>A066</td>
+            <td>Doe</td>
+            <td>150</td>
+            <td>50</td>
+            <td>1.000 €</td>
+            <td><span class="nav-item">
+                    <a class="btn-solid-sm" href="#contact">información</a>
+                </span>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+  </div>
+  <div class="filterDiv fabricas">
+    <table class="table table-striped">
+        <tbody>
+        <tr>
+            <td>A066</td>
+            <td>Doe</td>
+            <td>150</td>
+            <td>50</td>
+            <td>1.000 €</td>
+            <td><span class="nav-item">
+                    <a class="btn-solid-sm" href="#contact">información</a>
+                </span>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+  </div>
+  <div class="filterDiv agricultura">
+    <table class="table table-striped">
+        <tbody>
+        <tr>
+            <td>A066</td>
+            <td>Doe</td>
+            <td>150</td>
+            <td>50</td>
+            <td>1.000 €</td>
+            <td><span class="nav-item">
+                    <a class="btn-solid-sm" href="#contact">información</a>
+                </span>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+  </div>
+ 
+
+                         
+    <!-- Projects -->
+	<div id="projects" class="filter bg-gray">
+		<div class="container">
+            <div class="row"><br>
+                <div class="col-lg-12">
+                    <h2 class="h2-heading">Cual es tu sector a buscar</h2>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
                     
                     <!-- Filter -->
                     <div class="button-group filters-button-group">
@@ -200,7 +493,6 @@
                    
                     </div>
                     <!-- end of card -->
-
                        <!-- Card -->
                     <div class="element-item talleres">  
                     <div class="card">
@@ -233,7 +525,6 @@
                    
                     </div>
                     <!-- end of card -->
-
                        <!-- Card -->
                     <div class="element-item agricultura">  
                     <div class="card">
@@ -266,7 +557,6 @@
                    
                     </div>
                     <!-- end of card -->
-
                        <!-- Card -->
                     <div class="element-item fabricas">  
                     <div class="card">
@@ -299,7 +589,6 @@
                    
                     </div>
                     <!-- end of card -->
-
                        <!-- Card -->
                     <div class="element-item transporte">  
                     <div class="card">
@@ -332,7 +621,6 @@
                    
                     </div>
                     <!-- end of card -->
-
                        <!-- Card -->
                     <div class="element-item hosteleria">  
                     <div class="card">
@@ -365,7 +653,6 @@
                    
                     </div>
                     <!-- end of card -->
-
                        <!-- Card -->
                     <div class="element-item informatica">  
                     <div class="card">
@@ -398,7 +685,6 @@
                    
                     </div>
                     <!-- end of card -->
-
                        <!-- Card -->
                     <div class="element-item bancaseguros">  
                     <div class="card">
@@ -431,7 +717,6 @@
                    
                     </div>
                     <!-- end of card -->
-
                        <!-- Card -->
                     <div class="element-item educacion">  
                     <div class="card">
@@ -464,7 +749,6 @@
                    
                     </div>
                     <!-- end of card -->
-
                        <!-- Card -->
                     <div class="element-item inmobiliarias">  
                     <div class="card">
@@ -530,8 +814,6 @@
                    
                     </div>
                     <!-- end of card -->
-
-
                     
                     </div> <!-- end of grid -->
                     <!-- end of filter -->
@@ -585,5 +867,9 @@
     <script src="Assets/js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
     <script src="Assets/js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
     <script src="Assets/js/scripts.js"></script> <!-- Custom scripts -->
+    <script src="Assets/js/sector.js"></script> <!-- Custom scripts -->
+
+
+  
 </body>
 </html>

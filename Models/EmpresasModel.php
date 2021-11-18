@@ -53,8 +53,8 @@
 			$sql = "SELECT e.idempresa,e.identificacion,e.nombres,e.email_user,e.status,r.nombrerol 
 					FROM empresa e 
 					INNER JOIN rol r
-					ON p.rolid = r.idrol
-					WHERE p.status != 0 ";
+					ON e.rolid = r.idrol
+					WHERE e.status != 0 ";
 					$request = $this->select_all($sql);
 					return $request;
 		}
@@ -63,8 +63,8 @@
 			$sql = "SELECT e.idempresa,e.identificacion,e.nombres,e.email_user,e.identificador_fiscal,r.idrol,r.nombrerol,e.status, DATE_FORMAT(e.datecreated, '%d-%m-%Y') as fechaRegistro 
 					FROM empresa e
 					INNER JOIN rol r
-					ON p.rolid = r.idrol
-					WHERE p.idpersona = $this->intIdUsuario";
+					ON e.rolid = r.idrol
+					WHERE e.idempresa = $this->intIdUsuario";
 			$request = $this->select($sql);
 			return $request;
 		}
