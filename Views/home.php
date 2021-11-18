@@ -22,6 +22,10 @@
     
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
     <link href="Assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="Assets/css/fontawesome-all.min.css" rel="stylesheet">
     <link href="Assets/css/swiper.css" rel="stylesheet">
@@ -121,42 +125,43 @@
                     <!-- Filter -->
                     <div class="button-group filters-button-group">
                         <button class="button is-checked" data-filter="*">
-                          <img class="img-fluid m-2" src="Assets/images/iconohome.png" alt="alternative" width="50px" height="50px"><br>  
-                                ALL</button>
+                          <img class="img-fluid text-filters" src="Assets/images/iconohome.png" alt="alternative" width="50px" height="50px"><br>  
+                                ALL
+                        </button>
                         <button class="button" data-filter=".agricultura">
-                            <img class="img-fluid m-2" src="Assets/images/iconoglobe.png" alt="alternative" width="50px" height="50px"><br>
+                            <img class="img-fluid text-filters" src="Assets/images/iconoglobe.png" alt="alternative" width="50px" height="50px"><br>
                             Agricultura
                         </button>
                         <button class="button" data-filter=".fabricas">
-                            <img class="img-fluid m-2" src="Assets/images/iconodiana.png" alt="alternative" width="50px" height="50px"><br>
+                            <img class="img-fluid text-filters" src="Assets/images/iconodiana.png" alt="alternative" width="50px" height="50px"><br>
                             Fabricas
                         </button>
                         <button class="button" data-filter=".talleres">
-                            <img class="img-fluid m-2" src="Assets/images/iconoherramienta.png" alt="alternative" width="50px" height="50px"><br>
+                            <img class="img-fluid text-filters" src="Assets/images/iconoherramienta.png" alt="alternative" width="50px" height="50px"><br>
                             Talleres
                         </button>
                         <button class="button" data-filter=".hosteleria">
-                            <img class="img-fluid m-2" src="Assets/images/iconotiempo.png" alt="alternative" width="50px" height="50px"><br>
+                            <img class="img-fluid text-filters" src="Assets/images/iconotiempo.png" alt="alternative" width="50px" height="50px"><br>
                             Hosteleria
                         </button>
                         <button class="button" data-filter=".bancaseguros">
-                            <img class="img-fluid m-2" src="Assets/images/iconomoneda.png" alt="alternative" width="50px" height="50px"><br>
+                            <img class="img-fluid text-filters" src="Assets/images/iconomoneda.png" alt="alternative" width="50px" height="50px"><br>
                             Banca / Seguros
                         </button>
                         <button class="button" data-filter=".inmobiliarias">
-                            <img class="img-fluid m-2" src="Assets/images/iconoinmobiliaria.png" alt="alternative" width="50px" height="50px"><br>
+                            <img class="img-fluid text-filters" src="Assets/images/iconoinmobiliaria.png" alt="alternative" width="50px" height="50px"><br>
                             Inmobiliarias
                         </button>
                         <button class="button" data-filter=".educacion">
-                            <img class="img-fluid m-2" src="Assets/images/iconolapiz.png" alt="alternative" width="50px" height="50px"><br>
+                            <img class="img-fluid text-filters" src="Assets/images/iconolapiz.png" alt="alternative" width="50px" height="50px"><br>
                             Educación
                         </button>
                         <button class="button" data-filter=".sanitarias">
-                            <img class="img-fluid m-2" src="Assets/images/iconosanidad.png" alt="alternative" width="50px" height="50px"><br>
+                            <img class="img-fluid text-filters" src="Assets/images/iconosanidad.png" alt="alternative" width="50px" height="50px"><br>
                             Sanitaria
                         </button>
                          <button class="button" data-filter=".informatica">
-                            <img class="img-fluid m-2" src="Assets/images/iconomonitor.png" alt="alternative" width="50px" height="50px"><br>
+                            <img class="img-fluid text-filters" src="Assets/images/iconomonitor.png" alt="alternative" width="50px" height="50px"><br>
                             Informatica
                         </button>
                         <!-- <button class="button" data-filter=".development">Servicios</button>

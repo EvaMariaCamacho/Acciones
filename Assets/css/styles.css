@@ -41,8 +41,8 @@ html {
 }
 
 body, p {
-	color: #717166; 
-	font: 400 1rem/1.625rem "Open Sans", sans-serif;
+	color: #042334; 
+	font: 400 1rem/1.625rem 'Roboto Mono', monospace;
 }
 
 h1 {
@@ -623,6 +623,10 @@ select {
 .filter .element-item p strong {
 	color: #042334;
 }
+
+
+
+
 
 /*******************/
 /*     Contact     */
