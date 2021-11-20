@@ -42,7 +42,7 @@ html {
 
 body, p {
 	color: #042334; 
-	font: 400 1rem/1.625rem 'Roboto Mono', monospace;
+	font: 400 1rem/1rem 'Roboto Mono', monospace;
 }
 
 h1 {
@@ -623,9 +623,6 @@ select {
 .filter .element-item p strong {
 	color: #042334;
 }
-
-
-
 
 
 /*******************/
