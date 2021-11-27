@@ -118,6 +118,11 @@ body {
 	/* border-color: #042334; 
 	-webkit-transition: background-color 0.3s, border-color 0.3s, color 0.3s;
 	transition: background-color 0.3s, border-color 0.3s, color 0.3s; */
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px #eb6d24;
+    border-color: #eb6d24;
 }
 .button--shikoba.button--inverted {
 	color: #fff;
