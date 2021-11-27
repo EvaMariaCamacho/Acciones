@@ -1,0 +1,215 @@
+/**********************/
+/*     RESET INICIAL     */
+/**********************/
+
+ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**********************/
+/*     INICIO     */
+/**********************/
+body,
+html {
+    width: 100%;
+	height: 100%;
+    font: 1.2rem/1.2rem 'Roboto Mono', monospace;
+}
+
+body {
+	color: #042334; 
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+}
+
+
+/**********************/
+/*     Navigation     */
+/**********************/
+
+
+.navbar {
+	background-color: #eb6d24;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.05);
+}
+
+.nav-item i{
+    color: #eae0c2;
+}
+
+.nav-item a{
+    color: #eae0c2;
+}
+
+/**********************/
+/*     Header     */
+/**********************/
+
+#header{
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 100px;
+    
+}
+
+.text-container {
+    padding-top: 100px;
+}
+
+.text-container .h3{
+    color: #eb6d24;
+}
+
+/**********************/
+/*  Button group filtro    */
+/**********************/
+
+#filtro-group {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 150px;
+}
+
+.button.button--shikoba {
+	overflow: hidden;
+	background: #fff;
+	color: #042334;
+	/* border-color: #042334; 
+	-webkit-transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+	transition: background-color 0.3s, border-color 0.3s, color 0.3s; */
+}
+.button--shikoba.button--inverted {
+	color: #fff;
+	background: #eb6d24;
+}
+.button--shikoba > span {
+	display: inline-block;
+	-webkit-transform: translate3d(-10px, 0, 0);
+	transform: translate3d(-10px, 0, 0);
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+	-webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+	transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+}
+.button--shikoba .button__icon {
+	position: absolute;
+	left: 20px;
+	font-size: 10px;
+	-webkit-transform: translate3d(-40px, 2.5em, 0);
+	transform: translate3d(-40px, 2.5em, 0);
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+	-webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+	transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+}
+.button--shikoba:hover .button__icon,
+.button--shikoba:hover > span {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+.button--shikoba:hover {
+	background: #eb6d24;
+	border-color: #eb6d24;
+	color: #fff;
+}
+
+/**********************/
+/*       FICHAS       */
+/**********************/
+
+.container-ficha-inf{
+
+}
+.row-ficha-inf{
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 100px; 
+    color: #042334;
+}
+
+.row-ficha-inf .col-fichas-inf{
+    margin-right: 30px;
+    width: 40%;
+    height: 40%;
+    padding-top: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px #eb6d24;
+    border-color: #eb6d24;
+}
+
+.row-ficha-inf .col-fichas-inf img{
+    width: 50px;
+    height: 50px;
+     
+}
+
+.card-ficha-inf a{
+    color: #eb6d24;
+}
+
+.modal-ficha-inf a{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px #eb6d24;
+    border-color: #eb6d24;
+}
+.btn-ficha-inf{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px #eb6d24;
+    border-color: #eb6d24;
+
+}
