@@ -142,7 +142,7 @@
             <i class="fas fa-fax mr-3"></i><span>banca y seguros</span>
         </button>
         <button class="button button--shikoba button--round-s button--border-thin is-checked" data-filter=".educacion">
-            <i class="fas fa-user-graduate mr-2"></i><span>educacion</span>
+            <i class="fas fa-user-graduate mr-3"></i><span>educacion</span>
         </button>
         <button class="button button--shikoba button--round-s button--border-thin is-checked" data-filter=".fabricas">
             <i class="fas fa-city mr-3"></i><span>fabricas</span>
@@ -151,13 +151,13 @@
             <i class="fas fa-hotel mr-3"></i><span>hosteleria</span>
         </button>
         <button class="button button--shikoba button--round-s button--border-thin is-checked" data-filter=".informatica">
-            <i class="fas fa-laptop mr-2"></i><span>informatica</span>
+            <i class="fas fa-laptop mr-3"></i><span>informatica</span>
         </button>
         <button class="button button--shikoba button--round-s button--border-thin is-checked" data-filter=".inmobiliaria">
-            <i class="fas fa-user-tie mr-2"></i>inmobiliaria</span>
+            <i class="fas fa-user-tie mr-3"></i><span>inmobiliaria</span>
         </button>
         <button class="button button--shikoba button--round-s button--border-thin is-checked" data-filter=".sanitarias">
-            <i class="fas fa-stethoscope mr-2"></i><span>sanidad</span>
+            <i class="fas fa-stethoscope mr-3"></i><span>sanidad</span>
         </button>
         <button class="button button--shikoba button--round-s button--border-thin is-checked" data-filter=".talleres">
             <i class="fas fa-wrench mr-3"></i><span>talleres</span>

@@ -82,6 +82,13 @@ body {
     color: #eae0c2;
 }
 
+.dropdown-menu a{
+    color:#042334;
+}
+.dropdown-menu a:hover{
+    color:#eb6d24;
+}
+
 /**********************/
 /*     Header     */
 /**********************/
