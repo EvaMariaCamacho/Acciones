@@ -813,25 +813,6 @@
     </div> <!-- end of footer -->  
     <!-- end of footer -->
 
-
-    <!-- Copyright -->
-    <div class="copyright bg-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <ul class="list-unstyled li-space-lg p-small">
-                        <li><a href="article.html">Article Details</a></li>
-                        <li><a href="terms.html">Terms & Conditions</a></li>
-                        <li><a href="privacy.html">Privacy Policy</a></li>
-                    </ul>
-                </div> <!-- end of col -->
-                <div class="col-lg-3">
-                    <p class="p-small statement">Copyright © <a href="#">Your name</a></p>
-                </div> <!-- end of col -->
-            </div> <!-- enf of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of copyright --> 
-    <!-- end of copyright -->
     
 
     <!-- Scripts -->
