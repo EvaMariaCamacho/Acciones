@@ -41,12 +41,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
 </head>
 <!---Final del Head--->
 
 <!---Comienza el Body----->
 
 <body data-bs-spy="scroll">
+
 
 <!----Comienza el container de inicio---->
 
@@ -82,21 +85,22 @@
         </ul>
     </div> 
     </div>
-<div class="col-lg-1 col-md-2 col-sm-2">
-    <span class="nav-item">
-        <i class="fas fa-user-alt"></i>
-        <a class="btn-solid-sm" href="#contact">Login</a>
-    </span>
-</div>
-<div class="col-lg-1 col-md-2 col-sm-2">
-    <span class="nav-item">
-        <i class="fas fa-sign-in-alt"></i>
-        <a class="btn-solid-sm" href="#contact">Sign</a>
-    </span>
-</div>
+    <div class="col-lg-1 col-md-2 col-sm-2">
+        <span class="nav-item">
+            <i class="fas fa-user-alt"></i>
+            <a class="btn-solid-sm" href="#contact">Login</a>
+        </span>
+    </div>
+    <div class="col-lg-1 col-md-2 col-sm-2">
+        <span class="nav-item">
+            <i class="fas fa-sign-in-alt"></i>
+            <a class="btn-solid-sm" href="#contact">Sign</a>
+        </span>
+    </div>
 </div><!-----Fin de container del navbar--->
 </nav>
 <!----------------Fin del navbar--------------------->
+
 
 <!---------Inicio de Header----->
 <header id="header" class="header">
@@ -105,11 +109,11 @@
     <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12">
             <div id="details" class="basic-1"><!-- Details 1 -->
-                <img class="img-fluid m-3" src="../Assets/images/portada.png" alt="">
+                <img class="img-fluid m-3 mx-auto d-block" src="../Assets/images/portada.png" alt="">
             </div>  
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
-            <div class="text-container">
+            <div class="text-container mr-5">
                 <div class="h3">Empresas y Sociedades no cotizadas</div>
                 <br><br><br>
                 <p>Ponemos en contacto a potenciales compradores de participaciones en sociedades y empresas con vendedores o propietarios con necesidades de liquidez</p>
@@ -128,65 +132,68 @@
 
 <!-----Inicio del filtro----->
 <div class="container-fluid" id="filtro-group"><!----Container del navbar-->
-<div class="row">
-<div class="col-lg-12 col-md-12 col-sm-12">
-<section class="content">
-    <div class="box bg-1 button-group filters-button-group">
-        <button class="button button--shikoba button--round-s button--border-thin is-checked" data-filter="*">
-            <i class="fas fa-users mr-3"></i><span>all</span>
-        </button>
-        <button class="button button--shikoba button--round-s button--border-thin is-checked" data-filter=".agricultura">
-            <i class="fab fa-sticker-mule mr-3"></i><span>agricultura</span>
-        </button>
-        <button class="button button--shikoba button--round-s button--border-thin is-checked" data-filter=".bancaseguros">
-            <i class="fas fa-fax mr-3"></i><span>banca y seguros</span>
-        </button>
-        <button class="button button--shikoba button--round-s button--border-thin is-checked" data-filter=".educacion">
-            <i class="fas fa-user-graduate mr-3"></i><span>educacion</span>
-        </button>
-        <button class="button button--shikoba button--round-s button--border-thin is-checked" data-filter=".fabricas">
-            <i class="fas fa-city mr-3"></i><span>fabricas</span>
-        </button>
-        <button class="button button--shikoba button--round-s button--border-thin is-checked" data-filter=".hosteleria">
-            <i class="fas fa-hotel mr-3"></i><span>hosteleria</span>
-        </button>
-        <button class="button button--shikoba button--round-s button--border-thin is-checked" data-filter=".informatica">
-            <i class="fas fa-laptop mr-3"></i><span>informatica</span>
-        </button>
-        <button class="button button--shikoba button--round-s button--border-thin is-checked" data-filter=".inmobiliaria">
-            <i class="fas fa-user-tie mr-3"></i><span>inmobiliaria</span>
-        </button>
-        <button class="button button--shikoba button--round-s button--border-thin is-checked" data-filter=".sanitarias">
-            <i class="fas fa-stethoscope mr-3"></i><span>sanidad</span>
-        </button>
-        <button class="button button--shikoba button--round-s button--border-thin is-checked" data-filter=".talleres">
-            <i class="fas fa-wrench mr-3"></i><span>talleres</span>
-        </button>
-        <button class="button button--shikoba button--round-s button--border-thin is-checked" data-filter=".transporte">
-            <i class="fas fa-truck mr-3"></i><span>transporte</span>
-        </button>    
-    </div>
-</section>
-</div><!-----fin columna del filtro--->
-</div><!-----fin row del filtro--->
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <section class="content">
+                <div class="box bg-1 button-group filters-button-group d-flex justify-content-center">
+                    <button class="button button--shikoba button--round-s button--border-thin is-checked" data-filter="*">
+                        <i class="fas fa-users mr-4"></i><span>all</span>
+                    </button>
+                    <button class="button button--shikoba button--round-s button--border-thin is-checked" data-filter=".agricultura">
+                        <i class="fab fa-sticker-mule mr-4"></i><span>Agr</span>
+                    </button>
+                    <button class="button button--shikoba button--round-s button--border-thin is-checked" data-filter=".bancaseguros">
+                        <i class="fas fa-fax mr-4"></i><span>Bca</span>
+                    </button>
+                    <button class="button button--shikoba button--round-s button--border-thin is-checked" data-filter=".educacion">
+                        <i class="fas fa-user-graduate mr-4"></i><span>Edu</span>
+                    </button>
+                    <button class="button button--shikoba button--round-s button--border-thin is-checked" data-filter=".fabricas">
+                        <i class="fas fa-city mr-4"></i><span>Fab</span>
+                    </button>
+                    <button class="button button--shikoba button--round-s button--border-thin is-checked" data-filter=".hosteleria">
+                        <i class="fas fa-hotel mr-4"></i><span>Hos</span>
+                    </button>
+                    <button class="button button--shikoba button--round-s button--border-thin is-checked" data-filter=".informatica">
+                        <i class="fas fa-laptop mr-4"></i><span>Inf</span>
+                    </button>
+                    <button class="button button--shikoba button--round-s button--border-thin is-checked" data-filter=".inmobiliaria">
+                        <i class="fas fa-user-tie mr-4"></i><span>Inm</span>
+                    </button>
+                    <button class="button button--shikoba button--round-s button--border-thin is-checked" data-filter=".sanitarias">
+                        <i class="fas fa-stethoscope mr-4"></i><span>San</span>
+                    </button>
+                    <button class="button button--shikoba button--round-s button--border-thin is-checked" data-filter=".talleres">
+                        <i class="fas fa-wrench mr-4"></i><span>Tal</span>
+                    </button>
+                    <button class="button button--shikoba button--round-s button--border-thin is-checked" data-filter=".transporte">
+                        <i class="fas fa-truck mr-4"></i><span>Tra</span>
+                    </button>    
+                </div>
+            </section>
+        </div><!-----fin columna del filtro--->
+    </div><!-----fin row del filtro--->
 </div><!---Fin de container fluid del filtro--->
 
 <!-----Inicio de las fichas--->
+
+
+
 <div class="container-fluid container-ficha-inf">
-<div class="row row-ficha-inf">
-<div class="col-1 mr-5"></div>
-<div class="col-md-3 col-fichas-inf">
-<div class="row row-titulo-ficha mb-3">
-    <div class="col-2">
-        <img alt="Bootstrap Image Preview" src="../Assets/images/iconolapiz.png" class="rounded">
-    </div>
-    <div class="col-10">
-        <div class="h2">Empresa</div>
-    </div>
-</div>
-<p>
-    Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-</p>
+    <div class="row row-ficha-inf">
+        <div class="col-1 mr-5"></div>
+        <div class="col-md-3 col-fichas-inf">
+            <div class="row row-titulo-ficha mb-3">
+                <div class="col-2">
+                    <img alt="Bootstrap Image Preview" src="../Assets/images/iconolapiz.png" class="rounded">
+                </div>
+                <div class="col-10">
+                    <div class="h2">Empresa</div>
+                </div>
+            </div>
+    <p>
+        Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+    </p>
 <div id="card-897473" class="card-ficha-inf"> 
     <div class="card">
         <div class="card-header">
@@ -807,6 +814,18 @@
 </div><!--Fin de container de inicio-->
 
 <!-- Footer -->
+
+<!-----cookies------>
+<div id="cajacookies">
+<p>
+Éste sitio web usa cookies, si permanece aquí acepta su uso.
+Puede leer más sobre el uso de cookies en nuestra <a href="politica.html">política de privacidad</a>.
+</p>
+<button onclick="aceptarCookies()" class="pull-right"><i class="fa fa-times"></i> Aceptar</button>
+</div>
+
+<!-----Fin de cookies---->
+
     <div class="footer bg-gray m-5">
         <img class="decoration-city" src="../Assets/images/decoration-city.svg" alt="alternative">
        
@@ -832,6 +851,31 @@
 			})();
 	</script>
 
+<!----cookies------>
+
+<script>
+/* ésto comprueba la localStorage si ya tiene la variable guardada */
+function compruebaAceptaCookies() {
+  if(localStorage.aceptaCookies != 'true'){
+    cajacookies.style.display = 'block';
+  }
+}
+
+/* aquí guardamos la variable de que se ha
+aceptado el uso de cookies así no mostraremos
+el mensaje de nuevo */
+function aceptarCookies() {
+  localStorage.aceptaCookies = 'true';
+  cajacookies.style.display = 'none';
+}
+
+/* ésto se ejecuta cuando la web está cargada */
+$(document).ready(function () {
+  compruebaAceptaCookies();
+});
+</script>
+
+<!----fin de las cookies---->
 
 </body>
 </html>

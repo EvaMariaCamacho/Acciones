@@ -1,51 +1,3 @@
-/**********************/
-/*     RESET INICIAL     */
-/**********************/
-
- 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 
 /**********************/
 /*     INICIO     */
@@ -63,6 +15,43 @@ body {
     line-height: 1.5rem;
 }
 
+
+/**********************/
+/*     COOKIES    */
+/**********************/
+
+#cajacookies {
+  display: none;
+  box-shadow: 10px 5px 5px #eb6d24;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  margin-top: 670px;
+  margin-left: 15px;
+  padding-right: 30px;
+  margin-bottom: 0px;
+  position: fixed;
+  top: 0px;
+  width: 90%;
+}
+
+#cajacookies a {
+    color: #eb6d24;
+}
+#cajacookies button {
+    overflow: hidden;
+	background: #fff;
+	color: #042334;
+	/* border-color: #042334; 
+	-webkit-transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+	transition: background-color 0.3s, border-color 0.3s, color 0.3s; */
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px #eb6d24;
+    border-color: #eb6d24;
+    margin-left: 90%;
+}
 
 /**********************/
 /*     Navigation     */
@@ -102,6 +91,7 @@ body {
 
 .text-container {
     padding-top: 100px;
+    align-content: center;
 }
 
 .text-container .h3{
@@ -115,21 +105,23 @@ body {
 #filtro-group {
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
+    margin-top: 0px;
 }
 
 .button.button--shikoba {
 	overflow: hidden;
 	background: #fff;
 	color: #042334;
-	/* border-color: #042334; 
+	border-color: #042334; 
 	-webkit-transition: background-color 0.3s, border-color 0.3s, color 0.3s;
-	transition: background-color 0.3s, border-color 0.3s, color 0.3s; */
+	transition: background-color 0.3s, border-color 0.3s, color 0.3s;
     border-width: 1px;
     border-style: solid;
     border-radius: 15px;
     box-shadow: 10px 5px 5px #eb6d24;
     border-color: #eb6d24;
+    width: 120px;
 }
 .button--shikoba.button--inverted {
 	color: #fff;
@@ -170,20 +162,19 @@ body {
 /*       FICHAS       */
 /**********************/
 
-.container-ficha-inf{
 
-}
 .row-ficha-inf{
-    padding-top: 50px;
+    /* padding-top: 50px;
     padding-right: 100px;
-    padding-left: 100px; 
+    padding-left: 100px;  */
+    padding-bottom: 20px;
     color: #042334;
 }
 
 .row-ficha-inf .col-fichas-inf{
     margin-right: 30px;
-    width: 40%;
-    height: 40%;
+    /* width: 40%;
+    height: 40%; */
     padding-top: 30px;
     border-width: 1px;
     border-style: solid;
