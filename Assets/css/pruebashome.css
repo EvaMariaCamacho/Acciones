@@ -1,3 +1,50 @@
+/**********************/
+/*     RESET     */
+/**********************/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
 /**********************/
 /*     INICIO     */
@@ -161,8 +208,26 @@ body {
 /**********************/
 /*       FICHAS       */
 /**********************/
+.table-responsive {
+    padding-bottom: 25px;
+    padding-top: 20px;
+}
 
+.table-responsive th {
+    font-weight: 700;
+}
 
+.table-responsive td{
+    padding-left: 25px;
+}
+
+.card-ficha-inf .card-link i{
+    padding-right: 25px;
+}
+
+.card .btn {
+    padding-left: 200px;
+}
 .row-ficha-inf{
     /* padding-top: 50px;
     padding-right: 100px;
@@ -193,6 +258,10 @@ body {
     color: #eb6d24;
 }
 
+.modal-ficha-inf {
+    margin-left: 200px;
+    margin-top: 20px;
+}
 .modal-ficha-inf a{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -205,7 +274,7 @@ body {
 .btn-ficha-inf{
     margin-top: 20px;
     margin-bottom: 20px;
-    padding-left: 10px;
+    padding-left: 50px;
     text-align: center;
     width: 200px;
     height: 50px;
@@ -214,5 +283,22 @@ body {
     border-radius: 15px;
     box-shadow: 10px 5px 5px #eb6d24;
     border-color: #eb6d24;
-
 }
+
+.btn-modal-footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px #eb6d24;
+    border-color: #eb6d24;
+}
+
+
+
+
+

@@ -31,7 +31,7 @@
     <link href="../Assets/css/fontawesome-all.min.css" rel="stylesheet">
     <!-- <link href="../Assets/css/swiper.css" rel="stylesheet">
 	<link href="../Assets/css/styles.css" rel="stylesheet"> -->
-    <link href="../Assets/css/pruebas.css" rel="stylesheet">
+    <link href="../Assets/css/pruebashome.css" rel="stylesheet">
 	
 	<!-- Favicon  -->
     <link rel="icon" href="Assets/images/favicon.png">
@@ -176,621 +176,516 @@
 </div><!---Fin de container fluid del filtro--->
 
 <!-----Inicio de las fichas--->
-
-
-
 <div class="container-fluid container-ficha-inf">
     <div class="row row-ficha-inf">
         <div class="col-1 mr-5"></div>
         <div class="col-md-3 col-fichas-inf">
             <div class="row row-titulo-ficha mb-3">
                 <div class="col-2">
-                    <img alt="Bootstrap Image Preview" src="../Assets/images/iconolapiz.png" class="rounded">
+                    <img alt="Bootstrap Image Preview" src="../Assets/images/iconolapiz.png" class="rounded ml-4">
                 </div>
                 <div class="col-10">
-                    <div class="h2">Empresa</div>
+                    <div class="h2 text-center">Automoción</div>
                 </div>
             </div>
-    <p>
-        Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-    </p>
-<div id="card-897473" class="card-ficha-inf"> 
-    <div class="card">
-        <div class="card-header">
-                <a class="card-link collapsed" data-toggle="collapse" data-parent="#card-897473" href="#card-element-193894">Información cliente</a>
+            <table class="table-responsive ml-4">
+                <tbody>
+                <tr>
+                    <th scope="row">Nombre:</th>
+                    <td>Audi</td>
+                </tr>
+                <tr>
+                    <th scope="row">Población:</th>
+                    <td>Barcelona</td>
+                </tr>
+                <tr>
+                    <th scope="row">Cantidad:</th>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <th scope="row">Precio:</th>
+                    <td>1.000 €</td>
+                </tr>
+                </tbody>
+            </table>
+        <div id="card-1" class="card-ficha-inf"> 
+            <div class="card">
+                <div class="card-header">
+                        <a class="card-link collapsed" data-toggle="collapse" data-parent="#card-1" href="#card-element-1">
+                        <i class="fas fa-caret-square-down"></i>Información cliente
+                        </a>
+                </div>
+            <div id="card-element-1" class="collapse">
+                <div class="card-body">
+                    <table class="table-responsive ml-4">
+                        <tbody>
+                        <tr>
+                            <th scope="row">Nombre:</th>
+                            <td>Audi</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Población:</th>
+                            <td>Barcelona</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Cantidad:</th>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Precio:</th>
+                            <td>1.000 €</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <a id="modal-436999" href="#modal-container-436999" role="button" class="btn" data-toggle="modal"><i class="fas fa-plus"></i>Más</a>
+                </div>
+            </div>
         </div>
-        <div id="card-element-193894" class="collapse">
-            <div class="card-body">
-                Anim pariatur cliche...
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" data-parent="#card-1" href="#card-element-2">
+                <i class="fas fa-caret-square-down"></i>Datos Empresa</a>
+            </div>
+            <div id="card-element-2" class="collapse">
+                <div class="card-body">
+                    <table class="table-responsive ml-4">
+                        <tbody>
+                        <tr>
+                            <th scope="row">Nombre:</th>
+                            <td>Audi</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Población:</th>
+                            <td>Barcelona</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Cantidad:</th>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Precio:</th>
+                            <td>1.000 €</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <a id="modal-436999" href="#modal-container-436999" role="button" class="btn" data-toggle="modal"><i class="fas fa-plus"></i>Más</a>
+                </div>
             </div>
         </div>
     </div>
-    <div class="card">
-        <div class="card-header">
-                <a class="collapsed card-link" data-toggle="collapse" data-parent="#card-897473" href="#card-element-689042">Datos economicos</a>
-        </div>
-        <div id="card-element-689042" class="collapse">
-            <div class="card-body">
-                Anim pariatur cliche...
-            </div>
-        </div>
+    <div class="modal-ficha-inf">
+        <a id="modal-2" href="#modal-container-2" role="button" class="btn" data-toggle="modal">Solicitar</a>          
     </div>
-</div>
-        <div class="row modal-ficha-inf">
-           <div class="col-6">
-                <a id="modal-436999" href="#modal-container-436999" role="button" class="btn" data-toggle="modal">Información</a>
-           </div>
-           <div class="col-6">
-                <a id="modal-2" href="#modal-container-2" role="button" class="btn" data-toggle="modal">Enviar</a>          
-           </div>
-        </div>
 <!-----modal de información---->
-<div class="modal fade" id="modal-container-436999" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="myModalLabel">
-                    Modal title
-                </h5> 
-                <button type="button" class="close" data-dismiss="modal">
-                    <span aria-hidden="true">×</span>
-                </button>
+    <div class="modal fade" id="modal-container-436999" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="myModalLabel">Datos Economicos</h5> 
+                    <button type="button" class="close" data-dismiss="modal">
+                         <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table class="table-responsive ml-4">
+                        <tbody>
+                        <tr>
+                            <th scope="row">Nombre:</th>
+                            <td>Audi</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Población:</th>
+                            <td>Barcelona</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Cantidad:</th>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Precio:</th>
+                            <td>1.000 €</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer"> 
+                    <button type="button" class="btn-modal-footer" data-dismiss="modal">Cerrar</button>
+                </div>
             </div>
-            <div class="modal-body">
-                ...
-            </div>
-            <div class="modal-footer">
-                    
-                <button type="button" class="btn btn-primary">
-                    Save changes
-                </button> 
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                    Close
-                </button>
-            </div>
-        </div>
-        
-    </div>  
-</div>
+        </div>  
+    </div>
 <!------Fin de primer modal información---->
 <!------Inicio de modal de enviar---->
-<div class="modal fade" id="modal-container-2" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="myModalLabel">
-                    Modal title
-                </h5> 
-                <button type="button" class="close" data-dismiss="modal">
-                    <span aria-hidden="true">×</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                ...
-            </div>
-            <div class="modal-footer">
-                    
-                <button type="button" class="btn btn-primary">
-                    Save changes
-                </button> 
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                    Close
-                </button>
-            </div>
-        </div>   
-    </div>
+    <div class="modal fade" id="modal-container-2" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="myModalLabel">Solicitar</h5> 
+                    <button type="button" class="close" data-dismiss="modal">
+                      <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="PasswordSolicitud1">Password</label>
+                            <input type="password" class="form-control" id="PasswordSolicitud" placeholder="Password">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn-modal-footer">Login</button>
+                    <button type="button" class="btn-modal-footer" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>   
+        </div>
 <!----fin del modal enviar----> 
 </div>
 </div>
 <!----fin del card información---->
-<div class="col-md-3 col-fichas-inf">
-<div class="row row-titulo-ficha mb-3">
-    <div class="col-2">
-        <img alt="Bootstrap Image Preview" src="../Assets/images/iconolapiz.png" class="rounded">
-    </div>
-    <div class="col-10">
-        <div class="h2">Empresa</div>
-    </div>
-</div>
-<p>
-    Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-</p>
-<div id="card-897473" class="card-ficha-inf"> 
-    <div class="card">
-        <div class="card-header">
-                <a class="card-link collapsed" data-toggle="collapse" data-parent="#card-897473" href="#card-element-193894">Información cliente</a>
+   <div class="col-md-3 col-fichas-inf">
+            <div class="row row-titulo-ficha mb-3">
+                <div class="col-2">
+                    <img alt="Bootstrap Image Preview" src="../Assets/images/iconolapiz.png" class="rounded ml-4">
+                </div>
+                <div class="col-10">
+                    <div class="h2 text-center">Automoción</div>
+                </div>
+            </div>
+            <table class="table-responsive ml-4">
+                <tbody>
+                <tr>
+                    <th scope="row">Nombre:</th>
+                    <td>Audi</td>
+                </tr>
+                <tr>
+                    <th scope="row">Población:</th>
+                    <td>Barcelona</td>
+                </tr>
+                <tr>
+                    <th scope="row">Cantidad:</th>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <th scope="row">Precio:</th>
+                    <td>1.000 €</td>
+                </tr>
+                </tbody>
+            </table>
+        <div id="card-1" class="card-ficha-inf"> 
+            <div class="card">
+                <div class="card-header">
+                        <a class="card-link collapsed" data-toggle="collapse" data-parent="#card-1" href="#card-element-1">
+                        <i class="fas fa-caret-square-down"></i>Información cliente
+                        </a>
+                </div>
+            <div id="card-element-1" class="collapse">
+                <div class="card-body">
+                    <table class="table-responsive ml-4">
+                        <tbody>
+                        <tr>
+                            <th scope="row">Nombre:</th>
+                            <td>Audi</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Población:</th>
+                            <td>Barcelona</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Cantidad:</th>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Precio:</th>
+                            <td>1.000 €</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <a id="modal-436999" href="#modal-container-436999" role="button" class="btn" data-toggle="modal"><i class="fas fa-plus"></i>Más</a>
+                </div>
+            </div>
         </div>
-        <div id="card-element-193894" class="collapse">
-            <div class="card-body">
-                Anim pariatur cliche...
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" data-parent="#card-1" href="#card-element-2">
+                <i class="fas fa-caret-square-down"></i>Datos Economicos</a>
+            </div>
+            <div id="card-element-2" class="collapse">
+                <div class="card-body">
+                    <table class="table-responsive ml-4">
+                        <tbody>
+                        <tr>
+                            <th scope="row">Nombre:</th>
+                            <td>Audi</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Población:</th>
+                            <td>Barcelona</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Cantidad:</th>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Precio:</th>
+                            <td>1.000 €</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <a id="modal-436999" href="#modal-container-436999" role="button" class="btn" data-toggle="modal"><i class="fas fa-plus"></i>Más</a>
+                </div>
             </div>
         </div>
     </div>
-    <div class="card">
-        <div class="card-header">
-                <a class="collapsed card-link" data-toggle="collapse" data-parent="#card-897473" href="#card-element-689042">Datos economicos</a>
-        </div>
-        <div id="card-element-689042" class="collapse">
-            <div class="card-body">
-                Anim pariatur cliche...
-            </div>
-        </div>
+    <div class="modal-ficha-inf">
+        <a id="modal-2" href="#modal-container-2" role="button" class="btn" data-toggle="modal">Solicitar</a>          
     </div>
-</div>
-        <div class="row modal-ficha-inf">
-           <div class="col-6">
-                <a id="modal-436999" href="#modal-container-436999" role="button" class="btn" data-toggle="modal">Información</a>
-           </div>
-           <div class="col-6">
-                <a id="modal-2" href="#modal-container-2" role="button" class="btn" data-toggle="modal">Enviar</a>          
-           </div>
-        </div>
 <!-----modal de información---->
-<div class="modal fade" id="modal-container-436999" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="myModalLabel">
-                    Modal title
-                </h5> 
-                <button type="button" class="close" data-dismiss="modal">
-                    <span aria-hidden="true">×</span>
-                </button>
+    <div class="modal fade" id="modal-container-436999" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="myModalLabel">Información Empresa</h5> 
+                    <button type="button" class="close" data-dismiss="modal">
+                         <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table class="table-responsive ml-4">
+                        <tbody>
+                        <tr>
+                            <th scope="row">Nombre:</th>
+                            <td>Audi</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Población:</th>
+                            <td>Barcelona</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Cantidad:</th>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Precio:</th>
+                            <td>1.000 €</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer"> 
+                    <button type="button" class="btn-modal-footer" data-dismiss="modal">Cerrar</button>
+                </div>
             </div>
-            <div class="modal-body">
-                ...
-            </div>
-            <div class="modal-footer">
-                    
-                <button type="button" class="btn btn-primary">
-                    Save changes
-                </button> 
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                    Close
-                </button>
-            </div>
-        </div>
-        
-    </div>  
-</div>
+        </div>  
+    </div>
 <!------Fin de primer modal información---->
 <!------Inicio de modal de enviar---->
-<div class="modal fade" id="modal-container-2" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="myModalLabel">
-                    Modal title
-                </h5> 
-                <button type="button" class="close" data-dismiss="modal">
-                    <span aria-hidden="true">×</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                ...
-            </div>
-            <div class="modal-footer">
-                    
-                <button type="button" class="btn btn-primary">
-                    Save changes
-                </button> 
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                    Close
-                </button>
-            </div>
-        </div>   
-    </div>
-<!----fin del modal enviar----> 
-</div>
-</div>
-<div class="col-md-3 col-fichas-inf">
-<div class="row row-titulo-ficha mb-3">
-    <div class="col-2">
-        <img alt="Bootstrap Image Preview" src="../Assets/images/iconolapiz.png" class="rounded">
-    </div>
-    <div class="col-10">
-        <div class="h2">Empresa</div>
-    </div>
-</div>
-<p>
-    Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-</p>
-<div id="card-897473" class="card-ficha-inf"> 
-    <div class="card">
-        <div class="card-header">
-                <a class="card-link collapsed" data-toggle="collapse" data-parent="#card-897473" href="#card-element-193894">Información cliente</a>
+    <div class="modal fade" id="modal-container-2" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="myModalLabel">Solicitar</h5> 
+                    <button type="button" class="close" data-dismiss="modal">
+                      <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="PasswordSolicitud1">Password</label>
+                            <input type="password" class="form-control" id="PasswordSolicitud" placeholder="Password">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn-modal-footer">Login</button>
+                    <button type="button" class="btn-modal-footer" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>   
         </div>
-        <div id="card-element-193894" class="collapse">
-            <div class="card-body">
-                Anim pariatur cliche...
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <div class="card-header">
-                <a class="collapsed card-link" data-toggle="collapse" data-parent="#card-897473" href="#card-element-689042">Datos economicos</a>
-        </div>
-        <div id="card-element-689042" class="collapse">
-            <div class="card-body">
-                Anim pariatur cliche...
-            </div>
-        </div>
-    </div>
-</div>
-        <div class="row modal-ficha-inf">
-           <div class="col-6">
-                <a id="modal-436999" href="#modal-container-436999" role="button" class="btn" data-toggle="modal">Información</a>
-           </div>
-           <div class="col-6">
-                <a id="modal-2" href="#modal-container-2" role="button" class="btn" data-toggle="modal">Enviar</a>          
-           </div>
-        </div>
-<!-----modal de información---->
-<div class="modal fade" id="modal-container-436999" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="myModalLabel">
-                    Modal title
-                </h5> 
-                <button type="button" class="close" data-dismiss="modal">
-                    <span aria-hidden="true">×</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                ...
-            </div>
-            <div class="modal-footer">
-                    
-                <button type="button" class="btn btn-primary">
-                    Save changes
-                </button> 
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                    Close
-                </button>
-            </div>
-        </div>
-        
-    </div>  
-</div>
-<!------Fin de primer modal información---->
-<!------Inicio de modal de enviar---->
-<div class="modal fade" id="modal-container-2" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="myModalLabel">
-                    Modal title
-                </h5> 
-                <button type="button" class="close" data-dismiss="modal">
-                    <span aria-hidden="true">×</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                ...
-            </div>
-            <div class="modal-footer">
-                    
-                <button type="button" class="btn btn-primary">
-                    Save changes
-                </button> 
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                    Close
-                </button>
-            </div>
-        </div>   
-    </div>
-<!----fin del modal enviar----> 
-</div>
-</div>
-</div>
-</div>
-</div>
-<!-----fin de ficha de información---->
-
-<!-----Inicio de las fichas--->
-<div class="container-fluid container-ficha-inf">
-<div class="row row-ficha-inf">
-<div class="col-1 mr-5"></div>
-<div class="col-md-3 col-fichas-inf">
-<div class="row row-titulo-ficha mb-3">
-    <div class="col-2">
-        <img alt="Bootstrap Image Preview" src="../Assets/images/iconolapiz.png" class="rounded">
-    </div>
-    <div class="col-10">
-        <div class="h2">Empresa</div>
-    </div>
-</div>
-<p>
-    Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-</p>
-<div id="card-897473" class="card-ficha-inf"> 
-    <div class="card">
-        <div class="card-header">
-                <a class="card-link collapsed" data-toggle="collapse" data-parent="#card-897473" href="#card-element-193894">Información cliente</a>
-        </div>
-        <div id="card-element-193894" class="collapse">
-            <div class="card-body">
-                Anim pariatur cliche...
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <div class="card-header">
-                <a class="collapsed card-link" data-toggle="collapse" data-parent="#card-897473" href="#card-element-689042">Datos economicos</a>
-        </div>
-        <div id="card-element-689042" class="collapse">
-            <div class="card-body">
-                Anim pariatur cliche...
-            </div>
-        </div>
-    </div>
-</div>
-        <div class="row modal-ficha-inf">
-           <div class="col-6">
-                <a id="modal-436999" href="#modal-container-436999" role="button" class="btn" data-toggle="modal">Información</a>
-           </div>
-           <div class="col-6">
-                <a id="modal-2" href="#modal-container-2" role="button" class="btn" data-toggle="modal">Enviar</a>          
-           </div>
-        </div>
-<!-----modal de información---->
-<div class="modal fade" id="modal-container-436999" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="myModalLabel">
-                    Modal title
-                </h5> 
-                <button type="button" class="close" data-dismiss="modal">
-                    <span aria-hidden="true">×</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                ...
-            </div>
-            <div class="modal-footer">
-                    
-                <button type="button" class="btn btn-primary">
-                    Save changes
-                </button> 
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                    Close
-                </button>
-            </div>
-        </div>
-        
-    </div>  
-</div>
-<!------Fin de primer modal información---->
-<!------Inicio de modal de enviar---->
-<div class="modal fade" id="modal-container-2" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="myModalLabel">
-                    Modal title
-                </h5> 
-                <button type="button" class="close" data-dismiss="modal">
-                    <span aria-hidden="true">×</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                ...
-            </div>
-            <div class="modal-footer">
-                    
-                <button type="button" class="btn btn-primary">
-                    Save changes
-                </button> 
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                    Close
-                </button>
-            </div>
-        </div>   
-    </div>
 <!----fin del modal enviar----> 
 </div>
 </div>
 <!----fin del card información---->
-<div class="col-md-3 col-fichas-inf">
-<div class="row row-titulo-ficha mb-3">
-    <div class="col-2">
-        <img alt="Bootstrap Image Preview" src="../Assets/images/iconolapiz.png" class="rounded">
-    </div>
-    <div class="col-10">
-        <div class="h2">Empresa</div>
-    </div>
-</div>
-<p>
-    Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-</p>
-<div id="card-897473" class="card-ficha-inf"> 
-    <div class="card">
-        <div class="card-header">
-                <a class="card-link collapsed" data-toggle="collapse" data-parent="#card-897473" href="#card-element-193894">Información cliente</a>
+   <div class="col-md-3 col-fichas-inf">
+            <div class="row row-titulo-ficha mb-3">
+                <div class="col-2">
+                    <img alt="Bootstrap Image Preview" src="../Assets/images/iconolapiz.png" class="rounded ml-4">
+                </div>
+                <div class="col-10">
+                    <div class="h2 text-center">Automoción</div>
+                </div>
+            </div>
+            <table class="table-responsive ml-4">
+                <tbody>
+                <tr>
+                    <th scope="row">Nombre:</th>
+                    <td>Audi</td>
+                </tr>
+                <tr>
+                    <th scope="row">Población:</th>
+                    <td>Barcelona</td>
+                </tr>
+                <tr>
+                    <th scope="row">Cantidad:</th>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <th scope="row">Precio:</th>
+                    <td>1.000 €</td>
+                </tr>
+                </tbody>
+            </table>
+        <div id="card-1" class="card-ficha-inf"> 
+            <div class="card">
+                <div class="card-header">
+                        <a class="card-link collapsed" data-toggle="collapse" data-parent="#card-1" href="#card-element-1">
+                        <i class="fas fa-caret-square-down"></i>Información cliente
+                        </a>
+                </div>
+            <div id="card-element-1" class="collapse">
+                <div class="card-body">
+                    <table class="table-responsive ml-4">
+                        <tbody>
+                        <tr>
+                            <th scope="row">Nombre:</th>
+                            <td>Audi</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Población:</th>
+                            <td>Barcelona</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Cantidad:</th>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Precio:</th>
+                            <td>1.000 €</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <a id="modal-436999" href="#modal-container-436999" role="button" class="btn" data-toggle="modal"><i class="fas fa-plus"></i>Más</a>
+                </div>
+            </div>
         </div>
-        <div id="card-element-193894" class="collapse">
-            <div class="card-body">
-                Anim pariatur cliche...
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" data-parent="#card-1" href="#card-element-2">
+                <i class="fas fa-caret-square-down"></i>Datos Economicos</a>
+            </div>
+            <div id="card-element-2" class="collapse">
+                <div class="card-body">
+                    <table class="table-responsive ml-4">
+                        <tbody>
+                        <tr>
+                            <th scope="row">Nombre:</th>
+                            <td>Audi</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Población:</th>
+                            <td>Barcelona</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Cantidad:</th>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Precio:</th>
+                            <td>1.000 €</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <a id="modal-436999" href="#modal-container-436999" role="button" class="btn" data-toggle="modal"><i class="fas fa-plus"></i>Más</a>
+                </div>
             </div>
         </div>
     </div>
-    <div class="card">
-        <div class="card-header">
-                <a class="collapsed card-link" data-toggle="collapse" data-parent="#card-897473" href="#card-element-689042">Datos economicos</a>
-        </div>
-        <div id="card-element-689042" class="collapse">
-            <div class="card-body">
-                Anim pariatur cliche...
-            </div>
-        </div>
+    <div class="modal-ficha-inf">
+        <a id="modal-2" href="#modal-container-2" role="button" class="btn" data-toggle="modal">Solicitar</a>          
     </div>
-</div>
-        <div class="row modal-ficha-inf">
-           <div class="col-6">
-                <a id="modal-436999" href="#modal-container-436999" role="button" class="btn" data-toggle="modal">Información</a>
-           </div>
-           <div class="col-6">
-                <a id="modal-2" href="#modal-container-2" role="button" class="btn" data-toggle="modal">Enviar</a>          
-           </div>
-        </div>
 <!-----modal de información---->
-<div class="modal fade" id="modal-container-436999" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="myModalLabel">
-                    Modal title
-                </h5> 
-                <button type="button" class="close" data-dismiss="modal">
-                    <span aria-hidden="true">×</span>
-                </button>
+    <div class="modal fade" id="modal-container-436999" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="myModalLabel">Información Empresa</h5> 
+                    <button type="button" class="close" data-dismiss="modal">
+                         <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table class="table-responsive ml-4">
+                        <tbody>
+                        <tr>
+                            <th scope="row">Nombre:</th>
+                            <td>Audi</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Población:</th>
+                            <td>Barcelona</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Cantidad:</th>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Precio:</th>
+                            <td>1.000 €</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer"> 
+                    <button type="button" class="btn-modal-footer" data-dismiss="modal">Cerrar</button>
+                </div>
             </div>
-            <div class="modal-body">
-                ...
-            </div>
-            <div class="modal-footer">
-                    
-                <button type="button" class="btn btn-primary">
-                    Save changes
-                </button> 
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                    Close
-                </button>
-            </div>
-        </div>
-        
-    </div>  
-</div>
+        </div>  
+    </div>
 <!------Fin de primer modal información---->
 <!------Inicio de modal de enviar---->
-<div class="modal fade" id="modal-container-2" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="myModalLabel">
-                    Modal title
-                </h5> 
-                <button type="button" class="close" data-dismiss="modal">
-                    <span aria-hidden="true">×</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                ...
-            </div>
-            <div class="modal-footer">
-                    
-                <button type="button" class="btn btn-primary">
-                    Save changes
-                </button> 
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                    Close
-                </button>
-            </div>
-        </div>   
-    </div>
+    <div class="modal fade" id="modal-container-2" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="myModalLabel">Solicitar</h5> 
+                    <button type="button" class="close" data-dismiss="modal">
+                      <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="PasswordSolicitud1">Password</label>
+                            <input type="password" class="form-control" id="PasswordSolicitud" placeholder="Password">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn-modal-footer">Login</button>
+                    <button type="button" class="btn-modal-footer" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>   
+        </div>
 <!----fin del modal enviar----> 
 </div>
 </div>
-<div class="col-md-3 col-fichas-inf">
-<div class="row row-titulo-ficha mb-3">
-    <div class="col-2">
-        <img alt="Bootstrap Image Preview" src="../Assets/images/iconolapiz.png" class="rounded">
-    </div>
-    <div class="col-10">
-        <div class="h2">Empresa</div>
-    </div>
-</div>
-<p>
-    Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-</p>
-<div id="card-897473" class="card-ficha-inf"> 
-    <div class="card">
-        <div class="card-header">
-                <a class="card-link collapsed" data-toggle="collapse" data-parent="#card-897473" href="#card-element-193894">Información cliente</a>
-        </div>
-        <div id="card-element-193894" class="collapse">
-            <div class="card-body">
-                Anim pariatur cliche...
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <div class="card-header">
-                <a class="collapsed card-link" data-toggle="collapse" data-parent="#card-897473" href="#card-element-689042">Datos economicos</a>
-        </div>
-        <div id="card-element-689042" class="collapse">
-            <div class="card-body">
-                Anim pariatur cliche...
-            </div>
-        </div>
-    </div>
-</div>
-        <div class="row modal-ficha-inf">
-           <div class="col-6">
-                <a id="modal-436999" href="#modal-container-436999" role="button" class="btn" data-toggle="modal">Información</a>
-           </div>
-           <div class="col-6">
-                <a id="modal-2" href="#modal-container-2" role="button" class="btn" data-toggle="modal">Enviar</a>          
-           </div>
-        </div>
-<!-----modal de información---->
-<div class="modal fade" id="modal-container-436999" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="myModalLabel">
-                    Modal title
-                </h5> 
-                <button type="button" class="close" data-dismiss="modal">
-                    <span aria-hidden="true">×</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                ...
-            </div>
-            <div class="modal-footer">
-                    
-                <button type="button" class="btn btn-primary">
-                    Save changes
-                </button> 
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                    Close
-                </button>
-            </div>
-        </div>
-        
-    </div>  
-</div>
-<!------Fin de primer modal información---->
-<!------Inicio de modal de enviar---->
-<div class="modal fade" id="modal-container-2" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="myModalLabel">
-                    Modal title
-                </h5> 
-                <button type="button" class="close" data-dismiss="modal">
-                    <span aria-hidden="true">×</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                ...
-            </div>
-            <div class="modal-footer">
-                    
-                <button type="button" class="btn btn-primary">
-                    Save changes
-                </button> 
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                    Close
-                </button>
-            </div>
-        </div>   
-    </div>
-<!----fin del modal enviar----> 
+<!----fin del card información---->
 </div>
 </div>
 </div>
