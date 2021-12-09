@@ -31,7 +31,7 @@
     <link href="../Assets/css/fontawesome-all.min.css" rel="stylesheet">
     <!-- <link href="../Assets/css/swiper.css" rel="stylesheet">
 	<link href="../Assets/css/styles.css" rel="stylesheet"> -->
-    <link href="../Assets/css/pruebashome.css" rel="stylesheet">
+    <link href="../Assets/css/pruebas.css" rel="stylesheet">
 	
 	<!-- Favicon  -->
     <link rel="icon" href="Assets/images/favicon.png">
@@ -208,14 +208,13 @@
                 </tr>
                 </tbody>
             </table>
-        <div id="card-1" class="card-ficha-inf"> 
+        <div id="card-3" class="card-ficha-inf"> 
             <div class="card">
                 <div class="card-header">
-                        <a class="card-link collapsed" data-toggle="collapse" data-parent="#card-1" href="#card-element-1">
-                        <i class="fas fa-caret-square-down"></i>Información cliente
-                        </a>
+                        <a class="card-link collapsed" data-toggle="collapse" data-parent="#card-3" href="#card-element-3">
+                        <i class="fas fa-caret-square-down"></i>Información cliente</a>
                 </div>
-            <div id="card-element-1" class="collapse">
+            <div id="card-element-3" class="collapse">
                 <div class="card-body">
                     <table class="table-responsive ml-4">
                         <tbody>
@@ -241,12 +240,13 @@
                 </div>
             </div>
         </div>
+        <div id="card-4" class="card-ficha-inf"> 
         <div class="card">
             <div class="card-header">
-                <a class="collapsed card-link" data-toggle="collapse" data-parent="#card-1" href="#card-element-2">
+                <a class="collapsed card-link" data-toggle="collapse" data-parent="#card-4" href="#card-element-4">
                 <i class="fas fa-caret-square-down"></i>Datos Empresa</a>
             </div>
-            <div id="card-element-2" class="collapse">
+            <div id="card-element-4" class="collapse">
                 <div class="card-body">
                     <table class="table-responsive ml-4">
                         <tbody>
@@ -275,6 +275,7 @@
     </div>
     <div class="modal-ficha-inf">
         <a id="modal-2" href="#modal-container-2" role="button" class="btn" data-toggle="modal">Solicitar</a>          
+    </div>
     </div>
 <!-----modal de información---->
     <div class="modal fade" id="modal-container-436999" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -377,14 +378,13 @@
                 </tr>
                 </tbody>
             </table>
-        <div id="card-1" class="card-ficha-inf"> 
+        <div id="card-5" class="card-ficha-inf"> 
             <div class="card">
                 <div class="card-header">
-                        <a class="card-link collapsed" data-toggle="collapse" data-parent="#card-1" href="#card-element-1">
-                        <i class="fas fa-caret-square-down"></i>Información cliente
-                        </a>
+                        <a class="card-link collapsed" data-toggle="collapse" data-parent="#card-5" href="#card-element-5">
+                        <i class="fas fa-caret-square-down"></i>Información cliente</a>
                 </div>
-            <div id="card-element-1" class="collapse">
+            <div id="card-element-5" class="collapse">
                 <div class="card-body">
                     <table class="table-responsive ml-4">
                         <tbody>
@@ -410,12 +410,13 @@
                 </div>
             </div>
         </div>
+        <div id="card-6" class="card-ficha-inf"> 
         <div class="card">
             <div class="card-header">
-                <a class="collapsed card-link" data-toggle="collapse" data-parent="#card-1" href="#card-element-2">
+                <a class="collapsed card-link" data-toggle="collapse" data-parent="#card-6" href="#card-element-6">
                 <i class="fas fa-caret-square-down"></i>Datos Economicos</a>
             </div>
-            <div id="card-element-2" class="collapse">
+            <div id="card-element-6" class="collapse">
                 <div class="card-body">
                     <table class="table-responsive ml-4">
                         <tbody>
@@ -442,6 +443,7 @@
             </div>
         </div>
     </div>
+</div>
     <div class="modal-ficha-inf">
         <a id="modal-2" href="#modal-container-2" role="button" class="btn" data-toggle="modal">Solicitar</a>          
     </div>
@@ -546,14 +548,13 @@
                 </tr>
                 </tbody>
             </table>
-        <div id="card-1" class="card-ficha-inf"> 
+        <div id="card-7" class="card-ficha-inf"> 
             <div class="card">
                 <div class="card-header">
-                        <a class="card-link collapsed" data-toggle="collapse" data-parent="#card-1" href="#card-element-1">
-                        <i class="fas fa-caret-square-down"></i>Información cliente
-                        </a>
+                        <a class="card-link collapsed" data-toggle="collapse" data-parent="#card-7" href="#card-element-7">
+                        <i class="fas fa-caret-square-down"></i>Información cliente</a>
                 </div>
-            <div id="card-element-1" class="collapse">
+            <div id="card-element-7" class="collapse">
                 <div class="card-body">
                     <table class="table-responsive ml-4">
                         <tbody>
@@ -579,12 +580,13 @@
                 </div>
             </div>
         </div>
+        <div id="card-8" class="card-ficha-inf"> 
         <div class="card">
             <div class="card-header">
-                <a class="collapsed card-link" data-toggle="collapse" data-parent="#card-1" href="#card-element-2">
+                <a class="collapsed card-link" data-toggle="collapse" data-parent="#card-8" href="#card-element-8">
                 <i class="fas fa-caret-square-down"></i>Datos Economicos</a>
             </div>
-            <div id="card-element-2" class="collapse">
+            <div id="card-element-8" class="collapse">
                 <div class="card-body">
                     <table class="table-responsive ml-4">
                         <tbody>
@@ -611,6 +613,7 @@
             </div>
         </div>
     </div>
+</div>
     <div class="modal-ficha-inf">
         <a id="modal-2" href="#modal-container-2" role="button" class="btn" data-toggle="modal">Solicitar</a>          
     </div>

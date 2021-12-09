@@ -155,7 +155,6 @@ body {
     padding-bottom: 50px;
     margin-top: 0px;
 }
-
 .button.button--shikoba {
 	overflow: hidden;
 	background: #fff;
@@ -168,7 +167,8 @@ body {
     border-radius: 15px;
     box-shadow: 10px 5px 5px #eb6d24;
     border-color: #eb6d24;
-    width: 120px;
+    width: 100px;
+    margin-left: 18px;
 }
 .button--shikoba.button--inverted {
 	color: #fff;
